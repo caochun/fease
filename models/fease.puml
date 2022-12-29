@@ -1,4 +1,4 @@
-@startuml
+@startuml model
 
 enum 客户类型 {
     企业

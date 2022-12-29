@@ -1,0 +1,54 @@
+{
+  "_id": {
+    "$oid": "63a955e693e4e61794a9ccc6"
+  },
+  "uniqueId": "63a955e693e4e61794a9ccc6",
+  "schemaUniqueCode": "estate-office building",
+  "content": {
+    "formData": {
+      "subOwnAdd": "山东昌乐",
+      "collateralType": "mortgage00",
+      "locate": "辽宁沈阳",
+      "unifiedCreditCode": "374493934433",
+      "commodityNum": "DY00000444",
+      "mortgageRate": "78.13%",
+      "number": "4152632",
+      "customerQueryCode": "partyQueryCode",
+      "warrantyAmount": {
+        "$numberInt": "20000000"
+      },
+      "legalRepresentative": "汪XX",
+      "projectCommitId": "63a951a693e4e61794a9cc60_2",
+      "allpledge": "no",
+      "projectUniqueId": "63a951a693e4e61794a9cc60",
+      "subOwnName": "XXX国有资产经营总公司",
+      "custId": "63a94f3893e4e61794a9cc4c",
+      "subOwnNum": "ZL00000007",
+      "fairValue": {
+        "$numberInt": "25600000"
+      },
+      "collateralState": "0",
+      "_isValidate": true,
+      "procDefId": "projectApprovalProcess:projectApprovalProcess",
+      "pledge": "no",
+      "areaofstructure": {
+        "$numberInt": "5421"
+      },
+      "collateralWay": "mortgage",
+      "syncretic": "yes",
+      "commodityName": "房产"
+    }
+  },
+  "status": "RELEASE",
+  "version": {
+    "$numberLong": "2"
+  },
+  "commitId": "63a955e693e4e61794a9ccc6_2",
+  "createdTime": "2022-12-26 16:05:58",
+  "createdUserId": "297cc8ba2ba3454383abb1c393889393",
+  "alteredTime": "2022-12-26 16:58:45",
+  "alteredUserId": "7fdbbb3b21204cd5aca2bacae24416c6",
+  "createdOrgId": "b94a1e171368476696b69ae5d8092b56",
+  "alteredOgrId": "3607bd61450a4078b1371125869d8e87",
+  "_class": "com.cvicse.leasing.model.Document"
+}

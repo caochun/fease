@@ -1,0 +1,139 @@
+{
+  "_id": "0000000489",
+  "schemaUniqueCode": "DirectContractBack",
+  "uniqueId": "0000000489",
+  "commitId": "0000000489_1",
+  "version": "1",
+  "status": "RELEASE",
+  "createdTime": "2019-10-07 16:00:00",
+  "alteredTime": "2019-10-07 16:00:00",
+  "alteredUserId": "7caad95a149a4c44a6077a73c130a6f1",
+  "createdOrgId": "b94a1e171368476696b69ae5d8092b56",
+  "content": {
+    "formData": {
+      "FundsPurpose": "0",
+      "fundUse": "0",
+      "chiefDept": "b94a1e171368476696b69ae5d8092b56",
+      "primaryMG": "7caad95a149a4c44a6077a73c130a6f1",
+      "companyNum": "00000001",
+      "Lessor": "XX金融租赁有限公司",
+      "legalRepresentativeL": "某某某",
+      "businessRepresentative": "91370100MA3CBNXP0Y",
+      "locationL": "济南市历下区金融中心A座12楼",
+      "custId1": "ZL00000419",
+      "custName": "控股集团有限公司",
+      "legalRepresentative": "王某某",
+      "unifiedCreditCode": "9137077986548K",
+      "businessNum": "9137077986548K",
+      "location": "山东省济南市莱芜区XX路123号",
+      "custId": "000000000681",
+      "ContractCode": "TDjZ-2019-HZ-1015",
+      "ContractNum": 4,
+      "itemNum": "201900231",
+      "projectName": "控股集团有限公司15000万元售后回租项目",
+      "SignContractAddress": "370102",
+      "leaseType": "0",
+      "SignContractDate": "2019-09-11",
+      "overDayIntRate": 5,
+      "isCommonLessee": "0",
+      "CommonLessees": [],
+      "projectUniqueId": "201900231",
+      "projectQuotationUniqueId": "201900231qut",
+      "projectCommitId": "201900231_1",
+      "endIdentity": "ACTIVE",
+      "assetType": "1",
+      "assetsAmount": 120000000,
+      "zeroRentRate": 0,
+      "zeroRent": 0,
+      "principal": 120000000,
+      "yearCountDays": "360",
+      "startDate": "2019-09-11",
+      "algTemplate": "3",
+      "leasePeriod": "36",
+      "payTag": "0",
+      "repaymentDate": "10",
+      "rentalFrequency": "3",
+      "expiryDate": "01",
+      "ifAdvance": "0",
+      "existPreRentPeriod": "0",
+      "existGracePeriod": "0",
+      "gracePeriod": "0",
+      "purchasePrice": 100,
+      "rateType": "1",
+      "holidyHandleType": "2",
+      "referenceRate": "",
+      "rateLevel": "1",
+      "lprrateLevel": "0",
+      "baseRate": 4.75,
+      "rateFloatType": "0",
+      "rateFloatValue": 55,
+      "annualInterestRate": 7.3625,
+      "taxRateInvoiceType": "0",
+      "taxType": "0",
+      "taxPlanType": "0",
+      "interestTaxRate": 6,
+      "principalInterestTaxRate": null,
+      "inputTaxRate": null,
+      "paranaType": "1",
+      "paranaStartDay": "2023",
+      "LeaPriceMethod": "1",
+      "GuaraRatio": null,
+      "LeaInsType": [
+        "6",
+        "7"
+      ],
+      "LeaAddress": "济南市莱芜区",
+      "grantPlan": [
+        {
+          "id": "0000000489_grant",
+          "uniqueId": "0000000489_grant",
+          "payDate": "2019-09-11",
+          "payAmount": 120000000
+        }
+      ],
+      "chargeList": [
+        {
+          "id": "000000048972223",
+          "uniqueId": "000000048972223",
+          "chargeType": "2",
+          "chargeDate": "2019-09-11",
+          "chargeScale": 1.8,
+          "chargeAmount": 2160000,
+          "chargeTaxRate": 6
+        }
+      ],
+      "marginList": [
+        {
+          "id": "0000000489722130000000489",
+          "uniqueId": "0000000489722130000000489",
+          "marginCollectDate": "2019-09-11",
+          "marginCollectScale": 1,
+          "marginCollectAmount": 1200000
+        }
+      ],
+      "leaseBasic": [
+        "000000000408_0000000489"
+      ],
+      "agreedRepayMent": [
+        {
+          "startTerm": 1,
+          "endTerm": 12,
+          "algTemplate": "3",
+          "agreedPrincipal": 0,
+          "agreedRent": 0
+        },
+        {
+          "startTerm": 1,
+          "endTerm": 12,
+          "algTemplate": "3",
+          "agreedPrincipal": 0,
+          "agreedRent": 0
+        }
+      ],
+      "ContractType": "1",
+      "_transfer": true,
+      "endDate": "2022-09-11"
+    }
+  },
+  "_class": "com.cvicse.leasing.model.Document"
+}

@@ -1,0 +1,87 @@
+{
+  "_id": "201900231qut",
+  "schemaUniqueCode": "projectQuotation",
+  "uniqueId": "201900231qut",
+  "commitId": "201900231qut_1",
+  "version": "1",
+  "status": "RELEASE",
+  "createdTime": "2019-09-22 16:00:00",
+  "alteredTime": "2019-09-22 16:00:00",
+  "createdUserId": "297cc8ba2ba3454383abb1c393889393",
+  "alteredUserId": "297cc8ba2ba3454383abb1c393889393",
+  "createdOrgId": "b94a1e171368476696b69ae5d8092b56",
+  "alteredOgrId": "b94a1e171368476696b69ae5d8092b56",
+  "content": {
+    "formData": {
+      "projectUniqueId": "201900231",
+      "fundUse": "0",
+      "holidyHandleType": "2",
+      "projectCommitId": "201900231_1",
+      "custName": "控股集团有限公司",
+      "quotationName": "控股集团有限公司15000万元售后回租项目",
+      "leaseType": "0",
+      "assetType": "1",
+      "assetsAmount": 120000000,
+      "zeroRentRate": 0,
+      "zeroRent": 0,
+      "principal": 120000000,
+      "startDate": "2019-09-11",
+      "algTemplate": "3",
+      "leasePeriod": "36",
+      "endDate": "2022-09-11",
+      "payTag": "0",
+      "repaymentDate": "10",
+      "rentalFrequency": "3",
+      "expiryDate": "01",
+      "ifAdvance": "0",
+      "existGracePeriod": "0",
+      "gracePeriod": "0",
+      "purchasePrice": 100,
+      "rateType": "1",
+      "rateLevel": "2",
+      "lprrateLevel": "",
+      "baseRate": 4.75,
+      "rateFloatType": "0",
+      "rateFloatValue": 55,
+      "annualInterestRate": 7.3625,
+      "taxRateInvoiceType": "0",
+      "taxType": "0",
+      "taxPlanType": "0",
+      "interestTaxRate": 6,
+      "principalInterestTaxRate": 0,
+      "yearCountDays": "360",
+      "referenceRate": "",
+      "grantPlan": [
+        {
+          "id": "201900231_grant",
+          "uniqueId": "201900231_grant",
+          "payDate": "2019-09-11",
+          "payAmount": 120000000
+        }
+      ],
+      "chargeList": [
+        {
+          "id": "20190023172216",
+          "uniqueId": "20190023172216",
+          "chargeType": "2",
+          "chargeDate": "2019-09-11",
+          "chargeScale": 1.8,
+          "chargeAmount": 2700000,
+          "chargeTaxRate": 6
+        }
+      ],
+      "marginList": [
+        {
+          "id": "20190023172213",
+          "uniqueId": "20190023172213",
+          "marginCollectDate": "2019-09-11",
+          "marginCollectScale": 1,
+          "marginCollectAmount": 1500000
+        }
+      ],
+      "agreedRepayMent": null,
+      "_transfer": true
+    }
+  },
+  "_class": "com.cvicse.leasing.model.Document"
+}

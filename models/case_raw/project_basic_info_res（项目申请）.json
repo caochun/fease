@@ -1,0 +1,45 @@
+{
+  "_id": "201900231",
+  "schemaUniqueCode": "LeasingProjectBasic",
+  "uniqueId": "201900231",
+  "commitId": "201900231_1",
+  "version": "1",
+  "status": "RELEASE",
+  "createdTime": "2019-09-23 00:00:00",
+  "alteredTime": "2019-09-23 00:00:00",
+  "createdUserId": "7caad95a149a4c44a6077a73c130a6f1",
+  "alteredUserId": "7caad95a149a4c44a6077a73c130a6f1",
+  "createdOrgId": "b94a1e171368476696b69ae5d8092b56",
+  "alteredOgrId": "b94a1e171368476696b69ae5d8092b56",
+  "content": {
+    "formData": {
+      "custName": "控股集团有限公司",
+      "custId": "000000000681",
+      "projectName": "控股集团有限公司15000万元售后回租项目",
+      "projectSource": "7",
+      "projectNo": "201900231",
+      "leaseForm": "",
+      "custIndustry": "N7810",
+      "customerSize": "00",
+      "location": "370116",
+      "isCommonLessee": "0",
+      "CommonLessee": [],
+      "CommonLesseeCommitId": [],
+      "chiefDept": "b94a1e171368476696b69ae5d8092b56",
+      "primaryMG": "7caad95a149a4c44a6077a73c130a6f1",
+      "ifCountryRestriction": "0",
+      "guaranteeWay": [
+        "guarantee"
+      ],
+      "guaranteeType": "6",
+      "leaseBusArea": null,
+      "warNewBusType": null,
+      "isRelatedToAgriculture": "0",
+      "quotationIsOne": "1",
+      "_transfer": true,
+      "approvalDate": "2019-09-23",
+      "confirmDate": "2019-09-23"
+    }
+  },
+  "_class": "com.cvicse.leasing.model.Document"
+}

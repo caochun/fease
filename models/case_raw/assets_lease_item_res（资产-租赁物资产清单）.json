@@ -1,0 +1,152 @@
+{
+  "_id": "000000278522",
+  "schemaUniqueCode": "assetsLeaseItem",
+  "uniqueId": "000000278522",
+  "commitId": "000000278522_1",
+  "version": "1",
+  "status": "RELEASE",
+  "content": {
+    "formData": {
+      "leasePackageId": "000000000408_0000000489",
+      "leasePackageCommitId": "000000000408_0000000489_1",
+      "leaseId": "000000000408",
+      "leaseCommitId": "000000000408_1",
+      "listName": "弱电管线",
+      "count0": 0,
+      "unitPrice": 0,
+      "leaseholdOriginalValue": 53625441,
+      "confirmDepreciation": 5362544,
+      "confirmNet": 48262897,
+      "itemNo": "4",
+      "evaluationValue": 0,
+      "useYears": 0,
+      "inquiryValue": 0,
+      "_transfer": true
+    }
+  },
+  "_class": "com.cvicse.leasing.model.Document"
+},
+{
+  "_id": "000000278520",
+  "schemaUniqueCode": "assetsLeaseItem",
+  "uniqueId": "000000278520",
+  "commitId": "000000278520_1",
+  "version": "1",
+  "status": "RELEASE",
+  "content": {
+    "formData": {
+      "leasePackageId": "000000000408_0000000489",
+      "leasePackageCommitId": "000000000408_0000000489_1",
+      "leaseId": "000000000408",
+      "leaseCommitId": "000000000408_1",
+      "listName": "燃气管网",
+      "count0": 0,
+      "unitPrice": 0,
+      "leaseholdOriginalValue": 30545299,
+      "confirmDepreciation": 3054530,
+      "confirmNet": 27490769,
+      "itemNo": "2",
+      "evaluationValue": 0,
+      "useYears": 0,
+      "inquiryValue": 0,
+      "_transfer": true
+    }
+  },
+  "_class": "com.cvicse.leasing.model.Document"
+},
+{
+  "_id": "000000278519",
+  "schemaUniqueCode": "assetsLeaseItem",
+  "uniqueId": "000000278519",
+  "commitId": "000000278519_1",
+  "version": "1",
+  "status": "RELEASE",
+  "content": {
+    "formData": {
+      "leasePackageId": "000000000408_0000000489",
+      "leasePackageCommitId": "000000000408_0000000489_1",
+      "leaseId": "000000000408",
+      "leaseCommitId": "000000000408_1",
+      "listName": "供水管网",
+      "count0": 0,
+      "unitPrice": 0,
+      "leaseholdOriginalValue": 52455260,
+      "confirmDepreciation": 4196421,
+      "confirmNet": 48258839,
+      "itemNo": "1",
+      "evaluationValue": 0,
+      "useYears": 0,
+      "inquiryValue": 0,
+      "_transfer": true
+    }
+  },
+  "_class": "com.cvicse.leasing.model.Document"
+},
+{
+  "_id": "000000278521",
+  "schemaUniqueCode": "assetsLeaseItem",
+  "uniqueId": "000000278521",
+  "commitId": "000000278521_1",
+  "version": "1",
+  "status": "RELEASE",
+  "content": {
+    "formData": {
+      "leasePackageId": "000000000408_0000000489",
+      "leasePackageCommitId": "000000000408_0000000489_1",
+      "leaseId": "000000000408",
+      "leaseCommitId": "000000000408_1",
+      "listName": "强电管线",
+      "count0": 0,
+      "unitPrice": 0,
+      "leaseholdOriginalValue": 40335335,
+      "confirmDepreciation": 4033534,
+      "confirmNet": 36301802,
+      "itemNo": "3",
+      "evaluationValue": 0,
+      "useYears": 0,
+      "inquiryValue": 0,
+      "_transfer": true
+    }
+  },
+  "_class": "com.cvicse.leasing.model.Document"
+},
+{
+  "_id": "ObjectId(\"63a9558793e4e61794a9ccc4\")",
+  "uniqueId": "63a9558793e4e61794a9ccc4",
+  "schemaUniqueCode": "assetsLeaseItem",
+  "content": {
+    "formData": {
+      "unitPrice": 20000000,
+      "_isValidate": true,
+      "count0": 1,
+      "leaseholdOriginalValue1": 20000000,
+      "confirmNetData": "2022-04-26",
+      "leasePackageId": "63a9555a93e4e61794a9ccc3",
+      "confirmDepreciation": 0,
+      "confirmNetData1": "2022-04-26T08:05:12.112Z",
+      "haveInvoice": "0",
+      "confirmNet": 20000000,
+      "leasesName": "大型谷物设备",
+      "unit1": "台",
+      "modelLeaseItem": "4654886",
+      "confirmDepreciation1": 0,
+      "leaseholdOriginalValue": 20000000,
+      "confirmNet1": 20000000,
+      "leasePackageCommitId": "63a9555a93e4e61794a9ccc3_2",
+      "leaseId": "63a9555a93e4e61794a9ccc2",
+      "location": "XX设备机器厂",
+      "leaseCommitId": "63a9555a93e4e61794a9ccc2_1",
+      "listName": "谷物设备"
+    }
+  },
+  "status": "RELEASE",
+  "version": "2",
+  "commitId": "63a9558793e4e61794a9ccc4_2",
+  "createdTime": "2022-12-26 16:04:23",
+  "createdUserId": "297cc8ba2ba3454383abb1c393889393",
+  "alteredTime": "2022-12-26 16:58:45",
+  "alteredUserId": "7fdbbb3b21204cd5aca2bacae24416c6",
+  "createdOrgId": "b94a1e171368476696b69ae5d8092b56",
+  "alteredOgrId": "3607bd61450a4078b1371125869d8e87",
+  "_class": "com.cvicse.leasing.model.Document"
+}

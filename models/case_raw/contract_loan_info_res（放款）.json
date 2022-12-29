@@ -1,0 +1,80 @@
+{
+  "_id": "000000000171",
+  "schemaUniqueCode": "lendApplication",
+  "uniqueId": "000000000171",
+  "commitId": "000000000171_1",
+  "version": "1",
+  "status": "RELEASE",
+  "createdTime": "2019-09-11",
+  "alteredTime": "2019-09-11",
+  "alteredUserId": "7caad95a149a4c44a6077a73c130a6f1",
+  "createdOrgId": "b94a1e171368476696b69ae5d8092b56",
+  "content": {
+    "formData": {
+      "contractId": "0000000489",
+      "contractCommitId": "0000000489_1",
+      "itemNum": "201900231",
+      "loanMadeNum": 1,
+      "projectName": "控股集团有限公司15000万元售后回租项目",
+      "projectUniqueId": "201900231",
+      "custName": "控股集团有限公司",
+      "custId": "000000000681",
+      "taxType": "0",
+      "taxPlanType": "0",
+      "assetNature": "1",
+      "ContractCode": "TDjZ-2019-HZ-1015",
+      "principal": 120000000,
+      "loanAmount": 120000000,
+      "zeroRent": 0,
+      "leaseType": "0",
+      "SignContractDate": "2019-09-11",
+      "repaymentDate": "10",
+      "estimateLoanDate": "2019-09-11",
+      "actualAmount": 120000000,
+      "loanNum": "000000000171",
+      "afterRent": "1",
+      "ifAdvance": "0",
+      "fundsUse": "补充流动资金",
+      "discountRate": 7.3625,
+      "inputTaxRate": null,
+      "purchasePrice": 100,
+      "chargeList": [
+        {
+          "id": "00000000017172232",
+          "uniqueId": "00000000017172232",
+          "chargeType": "2",
+          "payStatus": "1",
+          "chargeScale": 1.8,
+          "chargeAmount": 2160000,
+          "chargeTaxRate": 6,
+          "chargeDate": "2019-09-11",
+          "ifDeduct": "0",
+          "onceRecognizedIncome": "0"
+        }
+      ],
+      "marginList": [
+        {
+          "id": "00000000017172230",
+          "uniqueId": "00000000017172230",
+          "marginCollectScale": 1,
+          "marginCollectAmount": 1200000,
+          "marginCollectDate": "2019-09-11",
+          "payStatus": "1"
+        }
+      ],
+      "payeeInfo": [
+        {
+          "id": "000000006253",
+          "uniqueId": "000000006253",
+          "custName": "控股集团有限公司",
+          "chargeAmount": 120000000,
+          "bankAccount": "威海市商业银行莱芜分行",
+          "accountNum": "****105014********",
+          "bankAccountNum": "****105014********"
+        }
+      ],
+      "_transfer": true
+    }
+  },
+  "_class": "com.cvicse.leasing.model.Document"
+}

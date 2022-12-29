@@ -1,0 +1,1657 @@
+{
+  "_id": "ObjectId(\"6229ba9ec966a80c64947ac8\")",
+  "schemaUniqueCode": "voucher",
+  "content": {
+    "assitsItems": {
+      "deptName": "济南业务部",
+      "employeeName": "张XX",
+      "loanNum": "000000000171",
+      "unifiedCreditCode": "9137077986548K",
+      "sendState": "1",
+      "debtId": "6221dc90d23d6f40f1724db4",
+      "custName": "控股集团有限公司",
+      "custCode": "ZL00000419",
+      "assetType": "1",
+      "accDate": "2022-03-10",
+      "itemId": "a757441b-b140-4451-9733-21ad112cbacf",
+      "taxRate": "6.0",
+      "custId": "000000000681",
+      "contractId": "0000000489",
+      "currency": "CNY",
+      "projectName": "控股集团有限公司15000万元售后回租项目",
+      "businessType": "30",
+      "projectId": "201900231",
+      "contractCode": "TDjZ-2019-HZ-1015",
+      "ncReturnMsg": "传输成功",
+      "ncVoucherId": ""
+    },
+    "accountingDate": "2022-03-10",
+    "entryList": [
+      {
+        "summary": "控股集团有限公司第10期租金2022-03-10",
+        "amount": 10552187.5,
+        "dcSign": "D",
+        "index": 1,
+        "debitAmount": 10552187.5,
+        "subjectCode": "10110501",
+        "subjectName": "存放其他银行活期款项",
+        "assistItems": {
+          "0011": "817970001421003481"
+        }
+      },
+      {
+        "summary": "控股集团有限公司第10期租金2022-03-10",
+        "cashFlowCode": "1121",
+        "amount": 10000000,
+        "dcSign": "C",
+        "emptyValue": "",
+        "index": 2,
+        "cashFlowSign": "yes",
+        "creditAmount": 10000000,
+        "subjectCode": "15310201",
+        "assistItems": {
+          "0017": "9137077986548K",
+          "BD-02": "TDjZ-2019-HZ-1015",
+          "BD-04": "000000000171"
+        },
+        "subjectName": "回租融资租赁本金"
+      },
+      {
+        "summary": "控股集团有限公司第10期租金2022-03-10",
+        "cashFlowCode": "1113",
+        "amount": 552187.5,
+        "dcSign": "C",
+        "emptyValue": "",
+        "index": 3,
+        "cashFlowSign": "yes",
+        "creditAmount": 552187.5,
+        "subjectCode": "15310202",
+        "assistItems": {
+          "0017": "9137077986548K",
+          "BD-02": "TDjZ-2019-HZ-1015",
+          "BD-04": "000000000171"
+        },
+        "subjectName": "回租融资租赁利息"
+      },
+      {
+        "summary": "控股集团有限公司第10期租金2022-03-10",
+        "amount": 31255.9,
+        "dcSign": "D",
+        "emptyValue": "",
+        "index": 4,
+        "cashFlowSign": "no",
+        "debitAmount": 31255.9,
+        "subjectCode": "15310204",
+        "assistItems": {
+          "0017": "9137077986548K",
+          "BD-02": "TDjZ-2019-HZ-1015",
+          "BD-04": "000000000171"
+        },
+        "subjectName": "回租融资租赁利息增值税"
+      },
+      {
+        "summary": "控股集团有限公司第10期租金2022-03-10",
+        "amount": 31255.9,
+        "dcSign": "C",
+        "emptyValue": "",
+        "index": 5,
+        "cashFlowSign": "no",
+        "creditAmount": 31255.9,
+        "subjectCode": "22210501",
+        "subjectName": "销项税额"
+      },
+      {
+        "summary": "控股集团有限公司第10期租金2022-03-10",
+        "amount": 520931.6,
+        "dcSign": "D",
+        "emptyValue": "",
+        "index": 6,
+        "cashFlowSign": "no",
+        "debitAmount": 520931.6,
+        "subjectCode": "15320201",
+        "assistItems": {
+          "0017": "9137077986548K",
+          "BD-02": "TDjZ-2019-HZ-1015",
+          "BD-04": "000000000171"
+        },
+        "subjectName": "回租未实现融资收益"
+      },
+      {
+        "summary": "控股集团有限公司第10期租金2022-03-10",
+        "amount": 520931.6,
+        "dcSign": "C",
+        "emptyValue": "",
+        "index": 7,
+        "cashFlowSign": "no",
+        "creditAmount": 520931.6,
+        "subjectCode": "11330101",
+        "assistItems": {
+          "0017": "9137077986548K",
+          "BD-04": "000000000171"
+        },
+        "subjectName": "应计收融资租赁收益"
+      }
+    ],
+    "templateUniqueId": "5e6f92e1f03ddd0ac454964d"
+  },
+  "status": "NEW",
+  "createdTime": "2022-03-10 16:45:18",
+  "createdUserId": "7b8728d6814c485d8b878caa334d12d7",
+  "alteredTime": "2022-03-10 16:45:18",
+  "alteredUserId": "7b8728d6814c485d8b878caa334d12d7",
+  "createdOrgId": "82062e7ad7c9495ebe23caa666855524",
+  "alteredOgrId": "82062e7ad7c9495ebe23caa666855524",
+  "_class": "com.cvicse.leasing.model.Document",
+  "commitId": "6229ba9ec966a80c64947ac8_1",
+  "uniqueId": "6229ba9ec966a80c64947ac8",
+  "version": "1"
+},
+{
+  "_id": "ObjectId(\"6264a36fc966a817ccea5091\")",
+  "schemaUniqueCode": "voucher",
+  "content": {
+    "assitsItems": {
+      "lendNum": "${lendnum}",
+      "deptName": "济南业务部",
+      "employeeName": "张XX",
+      "loanNum": "000000000171",
+      "lendId": "${lendId}",
+      "unifiedCreditCode": "9137077986548K",
+      "sendState": "1",
+      "custName": "控股集团有限公司",
+      "accDate": "2022-04-24",
+      "projectCode": "201900231",
+      "contractId": "0000000489",
+      "custId": "000000000681",
+      "loanDate": "${loanDate}",
+      "currency": "CNY",
+      "projectName": "控股集团有限公司15000万元售后回租项目",
+      "businessType": "65",
+      "contractCode": "TDjZ-2019-HZ-1015",
+      "loanId": "000000000171",
+      "ncReturnMsg": "传输成功",
+      "ncVoucherId": "",
+      "debtId": "b94a1e171368476696b69ae5d8092b56"
+    },
+    "accountingDate": "2022-04-24",
+    "entryList": [
+      {
+        "summary": "控股集团有限公司",
+        "amount": 115549.15,
+        "dcSign": "D",
+        "emptyValue": "",
+        "index": 1,
+        "cashFlowSign": "no",
+        "debitAmount": 115549.15,
+        "subjectCode": "11330101",
+        "assistItems": {
+          "0017": "9137077986548K",
+          "BD-04": "000000000171"
+        },
+        "subjectName": "应计收融资租赁收益"
+      },
+      {
+        "summary": "控股集团有限公司",
+        "amount": 115549.15,
+        "dcSign": "C",
+        "emptyValue": "",
+        "index": 2,
+        "cashFlowSign": "no",
+        "creditAmount": 115549.15,
+        "subjectCode": "60410201",
+        "assistItems": {
+          "0017": "9137077986548K",
+          "BD-02": "TDjZ-2019-HZ-1015",
+          "BD-04": "000000000171"
+        },
+        "subjectName": "回租融资租赁收入"
+      }
+    ],
+    "templateUniqueId": "5e899018f03ddd08a026b773"
+  },
+  "status": "NEW",
+  "createdTime": "2022-04-24 09:10:07",
+  "createdUserId": "c5cc180b3c8f439085228ef8e72a945e",
+  "alteredTime": "2022-04-24 09:10:07",
+  "alteredUserId": "c5cc180b3c8f439085228ef8e72a945e",
+  "createdOrgId": "82062e7ad7c9495ebe23caa666855524",
+  "alteredOgrId": "82062e7ad7c9495ebe23caa666855524",
+  "_class": "com.cvicse.leasing.model.Document",
+  "commitId": "6264a36fc966a817ccea5091_1",
+  "uniqueId": "6264a36fc966a817ccea5091",
+  "version": "1"
+},
+{
+  "_id": "ObjectId(\"623d6d2bc966a818786ec997\")",
+  "schemaUniqueCode": "voucher",
+  "content": {
+    "assitsItems": {
+      "lendNum": "${lendnum}",
+      "deptName": "济南业务部",
+      "employeeName": "张XX",
+      "loanNum": "000000000171",
+      "lendId": "${lendId}",
+      "unifiedCreditCode": "9137077986548K",
+      "sendState": "1",
+      "custName": "控股集团有限公司",
+      "accDate": "2022-03-25",
+      "projectCode": "201900231",
+      "contractId": "0000000489",
+      "custId": "000000000681",
+      "loanDate": "${loanDate}",
+      "currency": "CNY",
+      "projectName": "控股集团有限公司15000万元售后回租项目",
+      "businessType": "24",
+      "contractCode": "TDjZ-2019-HZ-1015",
+      "loanId": "000000000171",
+      "ncReturnMsg": "传输成功",
+      "ncVoucherId": "",
+      "debtId": "b94a1e171368476696b69ae5d8092b56"
+    },
+    "accountingDate": "2022-03-25",
+    "entryList": [
+      {
+        "summary": "控股集团有限公司",
+        "amount": 20619.59,
+        "dcSign": "D",
+        "emptyValue": "",
+        "index": 1,
+        "cashFlowSign": "no",
+        "debitAmount": 20619.59,
+        "subjectCode": "22059901",
+        "assistItems": {
+          "0017": "9137077986548K",
+          "BD-02": "TDjZ-2019-HZ-1015",
+          "BD-04": "000000000171"
+        },
+        "subjectName": "其他预收账款"
+      },
+      {
+        "summary": "控股集团有限公司",
+        "amount": 20619.59,
+        "dcSign": "C",
+        "emptyValue": "",
+        "index": 2,
+        "cashFlowSign": "no",
+        "creditAmount": 20619.59,
+        "subjectCode": "60210201",
+        "assistItems": {
+          "0017": "9137077986548K",
+          "BD-02": "TDjZ-2019-HZ-1015",
+          "BD-04": "000000000171"
+        },
+        "subjectName": "回租融资租赁手续费及佣金收入"
+      }
+    ],
+    "templateUniqueId": "6193203bdcf88d369020ed7a"
+  },
+  "status": "NEW",
+  "createdTime": "2022-03-25 15:20:11",
+  "createdUserId": "c5cc180b3c8f439085228ef8e72a945e",
+  "alteredTime": "2022-03-25 15:20:11",
+  "alteredUserId": "c5cc180b3c8f439085228ef8e72a945e",
+  "createdOrgId": "82062e7ad7c9495ebe23caa666855524",
+  "alteredOgrId": "82062e7ad7c9495ebe23caa666855524",
+  "_class": "com.cvicse.leasing.model.Document",
+  "commitId": "623d6d2bc966a818786ec997_1",
+  "uniqueId": "623d6d2bc966a818786ec997",
+  "version": "1"
+},
+{
+  "_id": "ObjectId(\"623d6c60c966a818786ec919\")",
+  "schemaUniqueCode": "voucher",
+  "content": {
+    "assitsItems": {
+      "lendNum": "${lendnum}",
+      "deptName": "济南业务部",
+      "employeeName": "张XX",
+      "loanNum": "000000000171",
+      "lendId": "${lendId}",
+      "unifiedCreditCode": "9137077986548K",
+      "sendState": "1",
+      "custName": "控股集团有限公司",
+      "accDate": "2022-03-25",
+      "projectCode": "201900231",
+      "contractId": "0000000489",
+      "custId": "000000000681",
+      "loanDate": "${loanDate}",
+      "currency": "CNY",
+      "projectName": "控股集团有限公司15000万元售后回租项目",
+      "businessType": "65",
+      "contractCode": "TDjZ-2019-HZ-1015",
+      "loanId": "000000000171",
+      "ncReturnMsg": "传输成功",
+      "ncVoucherId": "",
+      "debtId": "b94a1e171368476696b69ae5d8092b56"
+    },
+    "accountingDate": "2022-03-25",
+    "entryList": [
+      {
+        "summary": "控股集团有限公司",
+        "amount": 138809.47,
+        "dcSign": "D",
+        "emptyValue": "",
+        "index": 1,
+        "cashFlowSign": "no",
+        "debitAmount": 138809.47,
+        "subjectCode": "11330101",
+        "assistItems": {
+          "0017": "9137077986548K",
+          "BD-04": "000000000171"
+        },
+        "subjectName": "应计收融资租赁收益"
+      },
+      {
+        "summary": "控股集团有限公司",
+        "amount": 138809.47,
+        "dcSign": "C",
+        "emptyValue": "",
+        "index": 2,
+        "cashFlowSign": "no",
+        "creditAmount": 138809.47,
+        "subjectCode": "60410201",
+        "assistItems": {
+          "0017": "9137077986548K",
+          "BD-02": "TDjZ-2019-HZ-1015",
+          "BD-04": "000000000171"
+        },
+        "subjectName": "回租融资租赁收入"
+      }
+    ],
+    "templateUniqueId": "5e899018f03ddd08a026b773"
+  },
+  "status": "NEW",
+  "createdTime": "2022-03-25 15:16:48",
+  "createdUserId": "c5cc180b3c8f439085228ef8e72a945e",
+  "alteredTime": "2022-03-25 15:16:48",
+  "alteredUserId": "c5cc180b3c8f439085228ef8e72a945e",
+  "createdOrgId": "82062e7ad7c9495ebe23caa666855524",
+  "alteredOgrId": "82062e7ad7c9495ebe23caa666855524",
+  "_class": "com.cvicse.leasing.model.Document",
+  "commitId": "623d6c60c966a818786ec919_1",
+  "uniqueId": "623d6c60c966a818786ec919",
+  "version": "1"
+},
+{
+  "_id": "ObjectId(\"6264a60dc966a817ccea5317\")",
+  "uniqueId": "6264a60dc966a817ccea5317",
+  "schemaUniqueCode": "voucher",
+  "content": {
+    "assitsItems": {
+      "lendNum": "${lendnum}",
+      "deptName": "济南业务部",
+      "employeeName": "张XX",
+      "loanNum": "000000000171",
+      "lendId": "${lendId}",
+      "unifiedCreditCode": "9137077986548K",
+      "sendState": "1",
+      "ncVoucherId": "",
+      "custName": "控股集团有限公司",
+      "accDate": "2022-04-24",
+      "projectCode": "201900231",
+      "contractId": "0000000489",
+      "custId": "000000000681",
+      "loanDate": "${loanDate}",
+      "currency": "CNY",
+      "projectName": "控股集团有限公司15000万元售后回租项目",
+      "businessType": "24",
+      "contractCode": "TDjZ-2019-HZ-1015",
+      "ncReturnMsg": "传输成功",
+      "loanId": "000000000171",
+      "debtId": "b94a1e171368476696b69ae5d8092b56"
+    },
+    "accountingDate": "2022-04-24",
+    "entryList": [
+      {
+        "summary": "控股集团有限公司",
+        "amount": 17164.38,
+        "dcSign": "D",
+        "emptyValue": "",
+        "index": 1,
+        "cashFlowSign": "no",
+        "debitAmount": 17164.38,
+        "subjectCode": "22059901",
+        "assistItems": {
+          "0017": "9137077986548K",
+          "BD-02": "TDjZ-2019-HZ-1015",
+          "BD-04": "000000000171"
+        },
+        "subjectName": "其他预收账款"
+      },
+      {
+        "summary": "控股集团有限公司",
+        "amount": 17164.38,
+        "dcSign": "C",
+        "emptyValue": "",
+        "index": 2,
+        "cashFlowSign": "no",
+        "creditAmount": 17164.38,
+        "subjectCode": "60210201",
+        "assistItems": {
+          "0017": "9137077986548K",
+          "BD-02": "TDjZ-2019-HZ-1015",
+          "BD-04": "000000000171"
+        },
+        "subjectName": "回租融资租赁手续费及佣金收入"
+      }
+    ],
+    "templateUniqueId": "6193203bdcf88d369020ed7a"
+  },
+  "status": "NEW",
+  "version": "1",
+  "commitId": "6264a60dc966a817ccea5317_1",
+  "createdTime": "2022-04-24 09:21:17",
+  "createdUserId": "c5cc180b3c8f439085228ef8e72a945e",
+  "alteredTime": "2022-04-24 16:36:31",
+  "alteredUserId": "c5cc180b3c8f439085228ef8e72a945e",
+  "createdOrgId": "82062e7ad7c9495ebe23caa666855524",
+  "alteredOgrId": "82062e7ad7c9495ebe23caa666855524",
+  "_class": "com.cvicse.leasing.model.Document"
+},
+{
+  "_id": "ObjectId(\"628af1a6c966a80a1056df7c\")",
+  "schemaUniqueCode": "voucher",
+  "content": {
+    "assitsItems": {
+      "lendNum": "${lendnum}",
+      "deptName": "济南业务部",
+      "employeeName": "张XX",
+      "loanNum": "000000000171",
+      "lendId": "${lendId}",
+      "unifiedCreditCode": "9137077986548K",
+      "sendState": "1",
+      "custName": "控股集团有限公司",
+      "accDate": "2022-05-23",
+      "projectCode": "201900231",
+      "contractId": "0000000489",
+      "custId": "000000000681",
+      "loanDate": "${loanDate}",
+      "currency": "CNY",
+      "projectName": "控股集团有限公司15000万元售后回租项目",
+      "businessType": "65",
+      "contractCode": "TDjZ-2019-HZ-1015",
+      "loanId": "000000000171",
+      "ncReturnMsg": "传输成功",
+      "ncVoucherId": "",
+      "debtId": "b94a1e171368476696b69ae5d8092b56"
+    },
+    "accountingDate": "2022-05-23",
+    "entryList": [
+      {
+        "summary": "控股集团有限公司",
+        "amount": 120099.31,
+        "dcSign": "D",
+        "emptyValue": "",
+        "index": 1,
+        "cashFlowSign": "no",
+        "debitAmount": 120099.31,
+        "subjectCode": "11330101",
+        "assistItems": {
+          "0017": "9137077986548K",
+          "BD-04": "000000000171"
+        },
+        "subjectName": "应计收融资租赁收益"
+      },
+      {
+        "summary": "控股集团有限公司",
+        "amount": 120099.31,
+        "dcSign": "C",
+        "emptyValue": "",
+        "index": 2,
+        "cashFlowSign": "no",
+        "creditAmount": 120099.31,
+        "subjectCode": "60410201",
+        "assistItems": {
+          "0017": "9137077986548K",
+          "BD-02": "TDjZ-2019-HZ-1015",
+          "BD-04": "000000000171"
+        },
+        "subjectName": "回租融资租赁收入"
+      }
+    ],
+    "templateUniqueId": "5e899018f03ddd08a026b773"
+  },
+  "status": "NEW",
+  "createdTime": "2022-05-23 10:29:58",
+  "createdUserId": "c5cc180b3c8f439085228ef8e72a945e",
+  "alteredTime": "2022-05-23 10:29:58",
+  "alteredUserId": "c5cc180b3c8f439085228ef8e72a945e",
+  "createdOrgId": "82062e7ad7c9495ebe23caa666855524",
+  "alteredOgrId": "82062e7ad7c9495ebe23caa666855524",
+  "_class": "com.cvicse.leasing.model.Document",
+  "commitId": "628af1a6c966a80a1056df7c_1",
+  "uniqueId": "628af1a6c966a80a1056df7c",
+  "version": "1"
+},
+{
+  "_id": "ObjectId(\"628af1f0c966a80a1056e15e\")",
+  "schemaUniqueCode": "voucher",
+  "content": {
+    "assitsItems": {
+      "lendNum": "${lendnum}",
+      "deptName": "济南业务部",
+      "employeeName": "张XX",
+      "loanNum": "000000000171",
+      "lendId": "${lendId}",
+      "unifiedCreditCode": "9137077986548K",
+      "sendState": "1",
+      "custName": "控股集团有限公司",
+      "accDate": "2022-05-23",
+      "projectCode": "201900231",
+      "contractId": "0000000489",
+      "custId": "000000000681",
+      "loanDate": "${loanDate}",
+      "currency": "CNY",
+      "projectName": "控股集团有限公司15000万元售后回租项目",
+      "businessType": "24",
+      "contractCode": "TDjZ-2019-HZ-1015",
+      "loanId": "000000000171",
+      "ncReturnMsg": "传输成功",
+      "ncVoucherId": "",
+      "debtId": "b94a1e171368476696b69ae5d8092b56"
+    },
+    "accountingDate": "2022-05-23",
+    "entryList": [
+      {
+        "summary": "控股集团有限公司",
+        "amount": 17840.22,
+        "dcSign": "D",
+        "emptyValue": "",
+        "index": 1,
+        "cashFlowSign": "no",
+        "debitAmount": 17840.22,
+        "subjectCode": "22059901",
+        "assistItems": {
+          "0017": "9137077986548K",
+          "BD-02": "TDjZ-2019-HZ-1015",
+          "BD-04": "000000000171"
+        },
+        "subjectName": "其他预收账款"
+      },
+      {
+        "summary": "控股集团有限公司",
+        "amount": 17840.22,
+        "dcSign": "C",
+        "emptyValue": "",
+        "index": 2,
+        "cashFlowSign": "no",
+        "creditAmount": 17840.22,
+        "subjectCode": "60210201",
+        "assistItems": {
+          "0017": "9137077986548K",
+          "BD-02": "TDjZ-2019-HZ-1015",
+          "BD-04": "000000000171"
+        },
+        "subjectName": "回租融资租赁手续费及佣金收入"
+      }
+    ],
+    "templateUniqueId": "6193203bdcf88d369020ed7a"
+  },
+  "status": "NEW",
+  "createdTime": "2022-05-23 10:31:12",
+  "createdUserId": "c5cc180b3c8f439085228ef8e72a945e",
+  "alteredTime": "2022-05-23 10:31:12",
+  "alteredUserId": "c5cc180b3c8f439085228ef8e72a945e",
+  "createdOrgId": "82062e7ad7c9495ebe23caa666855524",
+  "alteredOgrId": "82062e7ad7c9495ebe23caa666855524",
+  "_class": "com.cvicse.leasing.model.Document",
+  "commitId": "628af1f0c966a80a1056e15e_1",
+  "uniqueId": "628af1f0c966a80a1056e15e",
+  "version": "1"
+},
+{
+  "_id": "ObjectId(\"62a2ec43c966a822b056220d\")",
+  "schemaUniqueCode": "voucher",
+  "content": {
+    "assitsItems": {
+      "deptName": "济南业务部",
+      "employeeName": "张XX",
+      "loanNum": "000000000171",
+      "unifiedCreditCode": "9137077986548K",
+      "sendState": "1",
+      "debtId": "6221dc90d23d6f40f1724db5",
+      "custName": "控股集团有限公司",
+      "custCode": "ZL00000419",
+      "assetType": "1",
+      "accDate": "2022-06-10",
+      "itemId": "98d9c222-d141-41d6-afe9-dd997f840106",
+      "taxRate": "6.0",
+      "custId": "000000000681",
+      "contractId": "0000000489",
+      "currency": "CNY",
+      "projectName": "控股集团有限公司15000万元售后回租项目",
+      "businessType": "30",
+      "projectId": "201900231",
+      "contractCode": "TDjZ-2019-HZ-1015",
+      "ncReturnMsg": "传输成功",
+      "ncVoucherId": ""
+    },
+    "accountingDate": "2022-06-10",
+    "entryList": [
+      {
+        "summary": "控股集团有限公司第11期租金2022-06-10",
+        "amount": 10376305.56,
+        "dcSign": "D",
+        "index": 1,
+        "debitAmount": 10376305.56,
+        "subjectCode": "10110501",
+        "subjectName": "存放其他银行活期款项",
+        "assistItems": {
+          "0011": "817970001421003481"
+        }
+      },
+      {
+        "summary": "控股集团有限公司第11期租金2022-06-10",
+        "cashFlowCode": "1121",
+        "amount": 10000000,
+        "dcSign": "C",
+        "emptyValue": "",
+        "index": 2,
+        "cashFlowSign": "yes",
+        "creditAmount": 10000000,
+        "subjectCode": "15310201",
+        "assistItems": {
+          "0017": "9137077986548K",
+          "BD-02": "TDjZ-2019-HZ-1015",
+          "BD-04": "000000000171"
+        },
+        "subjectName": "回租融资租赁本金"
+      },
+      {
+        "summary": "控股集团有限公司第11期租金2022-06-10",
+        "cashFlowCode": "1113",
+        "amount": 376305.56,
+        "dcSign": "C",
+        "emptyValue": "",
+        "index": 3,
+        "cashFlowSign": "yes",
+        "creditAmount": 376305.56,
+        "subjectCode": "15310202",
+        "assistItems": {
+          "0017": "9137077986548K",
+          "BD-02": "TDjZ-2019-HZ-1015",
+          "BD-04": "000000000171"
+        },
+        "subjectName": "回租融资租赁利息"
+      },
+      {
+        "summary": "控股集团有限公司第11期租金2022-06-10",
+        "amount": 21300.31,
+        "dcSign": "D",
+        "emptyValue": "",
+        "index": 4,
+        "cashFlowSign": "no",
+        "debitAmount": 21300.31,
+        "subjectCode": "15310204",
+        "assistItems": {
+          "0017": "9137077986548K",
+          "BD-02": "TDjZ-2019-HZ-1015",
+          "BD-04": "000000000171"
+        },
+        "subjectName": "回租融资租赁利息增值税"
+      },
+      {
+        "summary": "控股集团有限公司第11期租金2022-06-10",
+        "amount": 21300.31,
+        "dcSign": "C",
+        "emptyValue": "",
+        "index": 5,
+        "cashFlowSign": "no",
+        "creditAmount": 21300.31,
+        "subjectCode": "22210501",
+        "subjectName": "销项税额"
+      },
+      {
+        "summary": "控股集团有限公司第11期租金2022-06-10",
+        "amount": 355005.25,
+        "dcSign": "D",
+        "emptyValue": "",
+        "index": 6,
+        "cashFlowSign": "no",
+        "debitAmount": 355005.25,
+        "subjectCode": "15320201",
+        "assistItems": {
+          "0017": "9137077986548K",
+          "BD-02": "TDjZ-2019-HZ-1015",
+          "BD-04": "000000000171"
+        },
+        "subjectName": "回租未实现融资收益"
+      },
+      {
+        "summary": "控股集团有限公司第11期租金2022-06-10",
+        "amount": 355005.25,
+        "dcSign": "C",
+        "emptyValue": "",
+        "index": 7,
+        "cashFlowSign": "no",
+        "creditAmount": 355005.25,
+        "subjectCode": "11330101",
+        "assistItems": {
+          "0017": "9137077986548K",
+          "BD-04": "000000000171"
+        },
+        "subjectName": "应计收融资租赁收益"
+      }
+    ],
+    "templateUniqueId": "5e6f92e1f03ddd0ac454964d"
+  },
+  "status": "NEW",
+  "createdTime": "2022-06-10 15:01:23",
+  "createdUserId": "7b8728d6814c485d8b878caa334d12d7",
+  "alteredTime": "2022-06-10 15:01:23",
+  "alteredUserId": "7b8728d6814c485d8b878caa334d12d7",
+  "createdOrgId": "82062e7ad7c9495ebe23caa666855524",
+  "alteredOgrId": "82062e7ad7c9495ebe23caa666855524",
+  "_class": "com.cvicse.leasing.model.Document",
+  "commitId": "62a2ec43c966a822b056220d_1",
+  "uniqueId": "62a2ec43c966a822b056220d",
+  "version": "1"
+},
+{
+  "_id": "ObjectId(\"62b4118dc966a8183cc81785\")",
+  "schemaUniqueCode": "voucher",
+  "content": {
+    "assitsItems": {
+      "lendNum": "${lendnum}",
+      "deptName": "济南业务部",
+      "employeeName": "张XX",
+      "loanNum": "000000000171",
+      "lendId": "${lendId}",
+      "unifiedCreditCode": "9137077986548K",
+      "sendState": "1",
+      "custName": "控股集团有限公司",
+      "accDate": "2022-06-23",
+      "projectCode": "201900231",
+      "contractId": "0000000489",
+      "custId": "000000000681",
+      "loanDate": "${loanDate}",
+      "currency": "CNY",
+      "projectName": "控股集团有限公司15000万元售后回租项目",
+      "businessType": "65",
+      "contractCode": "TDjZ-2019-HZ-1015",
+      "loanId": "000000000171",
+      "ncReturnMsg": "传输成功",
+      "ncVoucherId": "",
+      "debtId": "b94a1e171368476696b69ae5d8092b56"
+    },
+    "accountingDate": "2022-06-23",
+    "entryList": [
+      {
+        "summary": "控股集团有限公司",
+        "amount": 77219.15,
+        "dcSign": "D",
+        "emptyValue": "",
+        "index": 1,
+        "cashFlowSign": "no",
+        "debitAmount": 77219.15,
+        "subjectCode": "11330101",
+        "assistItems": {
+          "0017": "9137077986548K",
+          "BD-04": "000000000171"
+        },
+        "subjectName": "应计收融资租赁收益"
+      },
+      {
+        "summary": "控股集团有限公司",
+        "amount": 77219.15,
+        "dcSign": "C",
+        "emptyValue": "",
+        "index": 2,
+        "cashFlowSign": "no",
+        "creditAmount": 77219.15,
+        "subjectCode": "60410201",
+        "assistItems": {
+          "0017": "9137077986548K",
+          "BD-02": "TDjZ-2019-HZ-1015",
+          "BD-04": "000000000171"
+        },
+        "subjectName": "回租融资租赁收入"
+      }
+    ],
+    "templateUniqueId": "5e899018f03ddd08a026b773"
+  },
+  "status": "NEW",
+  "createdTime": "2022-06-23 15:09:01",
+  "createdUserId": "c5cc180b3c8f439085228ef8e72a945e",
+  "alteredTime": "2022-06-23 15:09:01",
+  "alteredUserId": "c5cc180b3c8f439085228ef8e72a945e",
+  "createdOrgId": "82062e7ad7c9495ebe23caa666855524",
+  "alteredOgrId": "82062e7ad7c9495ebe23caa666855524",
+  "_class": "com.cvicse.leasing.model.Document",
+  "commitId": "62b4118dc966a8183cc81785_1",
+  "uniqueId": "62b4118dc966a8183cc81785",
+  "version": "1"
+},
+{
+  "_id": "ObjectId(\"62b411e0c966a8183cc81a7e\")",
+  "schemaUniqueCode": "voucher",
+  "content": {
+    "assitsItems": {
+      "lendNum": "${lendnum}",
+      "deptName": "济南业务部",
+      "employeeName": "张XX",
+      "loanNum": "000000000171",
+      "lendId": "${lendId}",
+      "unifiedCreditCode": "9137077986548K",
+      "sendState": "1",
+      "custName": "控股集团有限公司",
+      "accDate": "2022-06-23",
+      "projectCode": "201900231",
+      "contractId": "0000000489",
+      "custId": "000000000681",
+      "loanDate": "${loanDate}",
+      "currency": "CNY",
+      "projectName": "控股集团有限公司15000万元售后回租项目",
+      "businessType": "24",
+      "contractCode": "TDjZ-2019-HZ-1015",
+      "loanId": "000000000171",
+      "ncReturnMsg": "传输成功",
+      "ncVoucherId": "",
+      "debtId": "b94a1e171368476696b69ae5d8092b56"
+    },
+    "accountingDate": "2022-06-23",
+    "entryList": [
+      {
+        "summary": "控股集团有限公司",
+        "amount": 11470.62,
+        "dcSign": "D",
+        "emptyValue": "",
+        "index": 1,
+        "cashFlowSign": "no",
+        "debitAmount": 11470.62,
+        "subjectCode": "22059901",
+        "assistItems": {
+          "0017": "9137077986548K",
+          "BD-02": "TDjZ-2019-HZ-1015",
+          "BD-04": "000000000171"
+        },
+        "subjectName": "其他预收账款"
+      },
+      {
+        "summary": "控股集团有限公司",
+        "amount": 11470.62,
+        "dcSign": "C",
+        "emptyValue": "",
+        "index": 2,
+        "cashFlowSign": "no",
+        "creditAmount": 11470.62,
+        "subjectCode": "60210201",
+        "assistItems": {
+          "0017": "9137077986548K",
+          "BD-02": "TDjZ-2019-HZ-1015",
+          "BD-04": "000000000171"
+        },
+        "subjectName": "回租融资租赁手续费及佣金收入"
+      }
+    ],
+    "templateUniqueId": "6193203bdcf88d369020ed7a"
+  },
+  "status": "NEW",
+  "createdTime": "2022-06-23 15:10:24",
+  "createdUserId": "c5cc180b3c8f439085228ef8e72a945e",
+  "alteredTime": "2022-06-23 15:10:24",
+  "alteredUserId": "c5cc180b3c8f439085228ef8e72a945e",
+  "createdOrgId": "82062e7ad7c9495ebe23caa666855524",
+  "alteredOgrId": "82062e7ad7c9495ebe23caa666855524",
+  "_class": "com.cvicse.leasing.model.Document",
+  "commitId": "62b411e0c966a8183cc81a7e_1",
+  "uniqueId": "62b411e0c966a8183cc81a7e",
+  "version": "1"
+},
+{
+  "_id": "ObjectId(\"62df39eb6a1c452978ca8f12\")",
+  "uniqueId": "62df39eb6a1c452978ca8f12",
+  "schemaUniqueCode": "voucher",
+  "content": {
+    "assitsItems": {
+      "lendNum": "${lendnum}",
+      "deptName": "济南业务部",
+      "employeeName": "张XX",
+      "loanNum": "000000000171",
+      "lendId": "${lendId}",
+      "unifiedCreditCode": "9137077986548K",
+      "sendState": "1",
+      "ncVoucherId": "",
+      "custName": "控股集团有限公司",
+      "accDate": "2022-07-28",
+      "projectCode": "201900231",
+      "contractId": "0000000489",
+      "custId": "000000000681",
+      "loanDate": "${loanDate}",
+      "currency": "CNY",
+      "projectName": "控股集团有限公司15000万元售后回租项目",
+      "businessType": "65",
+      "contractCode": "TDjZ-2019-HZ-1015",
+      "ncReturnMsg": "传输成功",
+      "loanId": "000000000171",
+      "debtId": "b94a1e171368476696b69ae5d8092b56"
+    },
+    "accountingDate": "2022-07-28",
+    "entryList": [
+      {
+        "summary": "控股集团有限公司",
+        "amount": 59694.68,
+        "dcSign": "D",
+        "emptyValue": "",
+        "index": 1,
+        "cashFlowSign": "no",
+        "debitAmount": 59694.68,
+        "subjectCode": "11330101",
+        "assistItems": {
+          "0017": "9137077986548K",
+          "BD-04": "000000000171"
+        },
+        "subjectName": "应计收融资租赁收益"
+      },
+      {
+        "summary": "控股集团有限公司",
+        "amount": 59694.68,
+        "dcSign": "C",
+        "emptyValue": "",
+        "index": 2,
+        "cashFlowSign": "no",
+        "creditAmount": 59694.68,
+        "subjectCode": "60410201",
+        "assistItems": {
+          "0017": "9137077986548K",
+          "BD-02": "TDjZ-2019-HZ-1015",
+          "BD-04": "000000000171"
+        },
+        "subjectName": "回租融资租赁收入"
+      }
+    ],
+    "templateUniqueId": "5e899018f03ddd08a026b773"
+  },
+  "status": "NEW",
+  "version": "1",
+  "commitId": "62df39eb6a1c452978ca8f12_1",
+  "createdTime": "2022-07-26 08:48:43",
+  "createdUserId": "c5cc180b3c8f439085228ef8e72a945e",
+  "alteredTime": "2022-07-28 10:01:18",
+  "alteredUserId": "c5cc180b3c8f439085228ef8e72a945e",
+  "createdOrgId": "82062e7ad7c9495ebe23caa666855524",
+  "alteredOgrId": "82062e7ad7c9495ebe23caa666855524",
+  "_class": "com.cvicse.leasing.model.Document"
+},
+{
+  "_id": "ObjectId(\"62df3a396a1c452978ca9156\")",
+  "uniqueId": "62df3a396a1c452978ca9156",
+  "schemaUniqueCode": "voucher",
+  "content": {
+    "assitsItems": {
+      "lendNum": "${lendnum}",
+      "deptName": "济南业务部",
+      "employeeName": "张XX",
+      "loanNum": "000000000171",
+      "lendId": "${lendId}",
+      "unifiedCreditCode": "9137077986548K",
+      "sendState": "1",
+      "ncVoucherId": "",
+      "custName": "控股集团有限公司",
+      "accDate": "2022-07-28",
+      "projectCode": "201900231",
+      "contractId": "0000000489",
+      "custId": "000000000681",
+      "loanDate": "${loanDate}",
+      "currency": "CNY",
+      "projectName": "控股集团有限公司15000万元售后回租项目",
+      "businessType": "24",
+      "contractCode": "TDjZ-2019-HZ-1015",
+      "ncReturnMsg": "传输成功",
+      "loanId": "000000000171",
+      "debtId": "b94a1e171368476696b69ae5d8092b56"
+    },
+    "accountingDate": "2022-07-28",
+    "entryList": [
+      {
+        "summary": "控股集团有限公司",
+        "amount": 8867.4,
+        "dcSign": "D",
+        "emptyValue": "",
+        "index": 1,
+        "cashFlowSign": "no",
+        "debitAmount": 8867.4,
+        "subjectCode": "22059901",
+        "assistItems": {
+          "0017": "9137077986548K",
+          "BD-02": "TDjZ-2019-HZ-1015",
+          "BD-04": "000000000171"
+        },
+        "subjectName": "其他预收账款"
+      },
+      {
+        "summary": "控股集团有限公司",
+        "amount": 8867.4,
+        "dcSign": "C",
+        "emptyValue": "",
+        "index": 2,
+        "cashFlowSign": "no",
+        "creditAmount": 8867.4,
+        "subjectCode": "60210201",
+        "assistItems": {
+          "0017": "9137077986548K",
+          "BD-02": "TDjZ-2019-HZ-1015",
+          "BD-04": "000000000171"
+        },
+        "subjectName": "回租融资租赁手续费及佣金收入"
+      }
+    ],
+    "templateUniqueId": "6193203bdcf88d369020ed7a"
+  },
+  "status": "NEW",
+  "version": "1",
+  "commitId": "62df3a396a1c452978ca9156_1",
+  "createdTime": "2022-07-26 08:50:01",
+  "createdUserId": "c5cc180b3c8f439085228ef8e72a945e",
+  "alteredTime": "2022-07-28 16:38:40",
+  "alteredUserId": "c5cc180b3c8f439085228ef8e72a945e",
+  "createdOrgId": "82062e7ad7c9495ebe23caa666855524",
+  "alteredOgrId": "82062e7ad7c9495ebe23caa666855524",
+  "_class": "com.cvicse.leasing.model.Document"
+},
+{
+  "_id": "ObjectId(\"630824f06a1c4514d457a86b\")",
+  "schemaUniqueCode": "voucher",
+  "content": {
+    "assitsItems": {
+      "lendNum": "${lendnum}",
+      "deptName": "济南业务部",
+      "employeeName": "张XX",
+      "loanNum": "000000000171",
+      "lendId": "${lendId}",
+      "unifiedCreditCode": "9137077986548K",
+      "sendState": "1",
+      "custName": "控股集团有限公司",
+      "accDate": "2022-08-26",
+      "projectCode": "201900231",
+      "contractId": "0000000489",
+      "custId": "000000000681",
+      "loanDate": "${loanDate}",
+      "currency": "CNY",
+      "projectName": "控股集团有限公司15000万元售后回租项目",
+      "businessType": "65",
+      "contractCode": "TDjZ-2019-HZ-1015",
+      "loanId": "000000000171",
+      "ncReturnMsg": "传输成功",
+      "ncVoucherId": "",
+      "debtId": "b94a1e171368476696b69ae5d8092b56"
+    },
+    "accountingDate": "2022-08-26",
+    "entryList": [
+      {
+        "summary": "控股集团有限公司",
+        "amount": 60049.63,
+        "dcSign": "D",
+        "emptyValue": "",
+        "index": 1,
+        "cashFlowSign": "no",
+        "debitAmount": 60049.63,
+        "subjectCode": "11330101",
+        "assistItems": {
+          "0017": "9137077986548K",
+          "BD-04": "000000000171"
+        },
+        "subjectName": "应计收融资租赁收益"
+      },
+      {
+        "summary": "控股集团有限公司",
+        "amount": 60049.63,
+        "dcSign": "C",
+        "emptyValue": "",
+        "index": 2,
+        "cashFlowSign": "no",
+        "creditAmount": 60049.63,
+        "subjectCode": "60410201",
+        "assistItems": {
+          "0017": "9137077986548K",
+          "BD-02": "TDjZ-2019-HZ-1015",
+          "BD-04": "000000000171"
+        },
+        "subjectName": "回租融资租赁收入"
+      }
+    ],
+    "templateUniqueId": "5e899018f03ddd08a026b773"
+  },
+  "status": "NEW",
+  "createdTime": "2022-08-26 09:42:08",
+  "createdUserId": "c5cc180b3c8f439085228ef8e72a945e",
+  "alteredTime": "2022-08-26 09:42:08",
+  "alteredUserId": "c5cc180b3c8f439085228ef8e72a945e",
+  "createdOrgId": "82062e7ad7c9495ebe23caa666855524",
+  "alteredOgrId": "82062e7ad7c9495ebe23caa666855524",
+  "_class": "com.cvicse.leasing.model.Document",
+  "commitId": "630824f06a1c4514d457a86b_1",
+  "uniqueId": "630824f06a1c4514d457a86b",
+  "version": "1"
+},
+{
+  "_id": "ObjectId(\"630825316a1c4514d457aa1f\")",
+  "schemaUniqueCode": "voucher",
+  "content": {
+    "assitsItems": {
+      "lendNum": "${lendnum}",
+      "deptName": "济南业务部",
+      "employeeName": "张XX",
+      "loanNum": "000000000171",
+      "lendId": "${lendId}",
+      "unifiedCreditCode": "9137077986548K",
+      "sendState": "1",
+      "custName": "控股集团有限公司",
+      "accDate": "2022-08-26",
+      "projectCode": "201900231",
+      "contractId": "0000000489",
+      "custId": "000000000681",
+      "loanDate": "${loanDate}",
+      "currency": "CNY",
+      "projectName": "控股集团有限公司15000万元售后回租项目",
+      "businessType": "24",
+      "contractCode": "TDjZ-2019-HZ-1015",
+      "loanId": "000000000171",
+      "ncReturnMsg": "传输成功",
+      "ncVoucherId": "",
+      "debtId": "b94a1e171368476696b69ae5d8092b56"
+    },
+    "accountingDate": "2022-08-26",
+    "entryList": [
+      {
+        "summary": "控股集团有限公司",
+        "amount": 8920.17,
+        "dcSign": "D",
+        "emptyValue": "",
+        "index": 1,
+        "cashFlowSign": "no",
+        "debitAmount": 8920.17,
+        "subjectCode": "22059901",
+        "assistItems": {
+          "0017": "9137077986548K",
+          "BD-02": "TDjZ-2019-HZ-1015",
+          "BD-04": "000000000171"
+        },
+        "subjectName": "其他预收账款"
+      },
+      {
+        "summary": "控股集团有限公司",
+        "amount": 8920.17,
+        "dcSign": "C",
+        "emptyValue": "",
+        "index": 2,
+        "cashFlowSign": "no",
+        "creditAmount": 8920.17,
+        "subjectCode": "60210201",
+        "assistItems": {
+          "0017": "9137077986548K",
+          "BD-02": "TDjZ-2019-HZ-1015",
+          "BD-04": "000000000171"
+        },
+        "subjectName": "回租融资租赁手续费及佣金收入"
+      }
+    ],
+    "templateUniqueId": "6193203bdcf88d369020ed7a"
+  },
+  "status": "NEW",
+  "createdTime": "2022-08-26 09:43:13",
+  "createdUserId": "c5cc180b3c8f439085228ef8e72a945e",
+  "alteredTime": "2022-08-26 09:43:13",
+  "alteredUserId": "c5cc180b3c8f439085228ef8e72a945e",
+  "createdOrgId": "82062e7ad7c9495ebe23caa666855524",
+  "alteredOgrId": "82062e7ad7c9495ebe23caa666855524",
+  "_class": "com.cvicse.leasing.model.Document",
+  "commitId": "630825316a1c4514d457aa1f_1",
+  "uniqueId": "630825316a1c4514d457aa1f",
+  "version": "1"
+},
+{
+  "_id": "ObjectId(\"631dfef86a1c452d58173a85\")",
+  "schemaUniqueCode": "voucher",
+  "content": {
+    "assitsItems": {
+      "deptName": "济南业务部",
+      "employeeName": "张XX",
+      "loanNum": "000000000171",
+      "unifiedCreditCode": "9137077986548K",
+      "sendState": "1",
+      "businessType9": "跑批租金转逾期(回租)",
+      "custName": "控股集团有限公司",
+      "debtId": "6221dc90d23d6f40f1724db6",
+      "custCode": "ZL00000419",
+      "assetType": "1",
+      "accDate": "2022-09-11",
+      "taxRate": "6.0",
+      "custId": "000000000681",
+      "contractId": "0000000489",
+      "currency": "CNY",
+      "projectName": "控股集团有限公司15000万元售后回租项目",
+      "businessType": "12",
+      "projectId": "201900231",
+      "contractCode": "TDjZ-2019-HZ-1015",
+      "ncReturnMsg": "传输成功",
+      "ncVoucherId": ""
+    },
+    "accountingDate": "2022-09-11",
+    "entryList": [
+      {
+        "summary": "控股集团有限公司租金转逾期(回租)",
+        "amount": 1200000,
+        "dcSign": "D",
+        "emptyValue": "",
+        "index": 1,
+        "cashFlowSign": "no",
+        "debitAmount": 1200000,
+        "subjectCode": "15310206",
+        "assistItems": {
+          "0017": "9137077986548K",
+          "BD-02": "TDjZ-2019-HZ-1015"
+        },
+        "subjectName": "回租逾期租赁本金"
+      },
+      {
+        "summary": "控股集团有限公司租金转逾期(回租)",
+        "amount": 1200000,
+        "dcSign": "C",
+        "emptyValue": "",
+        "index": 2,
+        "cashFlowSign": "no",
+        "creditAmount": 1200000,
+        "subjectCode": "15310201",
+        "assistItems": {
+          "0017": "9137077986548K",
+          "BD-02": "TDjZ-2019-HZ-1015",
+          "BD-04": "000000000171"
+        },
+        "subjectName": "回租融资租赁本金"
+      }
+    ],
+    "templateUniqueId": "606ec477c6bb4807d0ef9ee5"
+  },
+  "status": "NEW",
+  "createdTime": "2022-09-11 23:30:00",
+  "alteredTime": "2022-09-11 23:30:00",
+  "_class": "com.cvicse.leasing.model.Document",
+  "commitId": "631dfef86a1c452d58173a85_1",
+  "uniqueId": "631dfef86a1c452d58173a85",
+  "version": "1"
+},
+{
+  "_id": "ObjectId(\"631aec6a6a1c452904d8d911\")",
+  "schemaUniqueCode": "voucher",
+  "content": {
+    "assitsItems": {
+      "deptName": "济南业务部",
+      "employeeName": "张XX",
+      "loanNum": "000000000171",
+      "unifiedCreditCode": "9137077986548K",
+      "sendState": "1",
+      "debtId": "6221dc90d23d6f40f1724db6",
+      "custName": "控股集团有限公司",
+      "custCode": "ZL00000419",
+      "assetType": "1",
+      "accDate": "2022-09-09",
+      "itemId": "2f189121-b201-4762-b189-5d8a6de87c31",
+      "taxRate": "6.0",
+      "custId": "000000000681",
+      "contractId": "0000000489",
+      "currency": "CNY",
+      "projectName": "控股集团有限公司15000万元售后回租项目",
+      "businessType": "30",
+      "projectId": "201900231",
+      "contractCode": "TDjZ-2019-HZ-1015",
+      "ncReturnMsg": "传输成功",
+      "ncVoucherId": ""
+    },
+    "accountingDate": "2022-09-09",
+    "entryList": [
+      {
+        "summary": "控股集团有限公司第12期租金2022-09-09",
+        "amount": 8990197.92,
+        "dcSign": "D",
+        "index": 1,
+        "debitAmount": 8990197.92,
+        "subjectCode": "10110501",
+        "subjectName": "存放其他银行活期款项",
+        "assistItems": {
+          "0011": "817970001421003481"
+        }
+      },
+      {
+        "summary": "控股集团有限公司第12期租金2022-09-09",
+        "cashFlowCode": "1121",
+        "amount": 8800000,
+        "dcSign": "C",
+        "emptyValue": "",
+        "index": 2,
+        "cashFlowSign": "yes",
+        "creditAmount": 8800000,
+        "subjectCode": "15310201",
+        "assistItems": {
+          "0017": "9137077986548K",
+          "BD-02": "TDjZ-2019-HZ-1015",
+          "BD-04": "000000000171"
+        },
+        "subjectName": "回租融资租赁本金"
+      },
+      {
+        "summary": "控股集团有限公司第12期租金2022-09-09",
+        "cashFlowCode": "1113",
+        "amount": 190197.92,
+        "dcSign": "C",
+        "emptyValue": "",
+        "index": 3,
+        "cashFlowSign": "yes",
+        "creditAmount": 190197.92,
+        "subjectCode": "15310202",
+        "assistItems": {
+          "0017": "9137077986548K",
+          "BD-02": "TDjZ-2019-HZ-1015",
+          "BD-04": "000000000171"
+        },
+        "subjectName": "回租融资租赁利息"
+      },
+      {
+        "summary": "控股集团有限公司第12期租金2022-09-09",
+        "amount": 10765.92,
+        "dcSign": "D",
+        "emptyValue": "",
+        "index": 4,
+        "cashFlowSign": "no",
+        "debitAmount": 10765.92,
+        "subjectCode": "15310204",
+        "assistItems": {
+          "0017": "9137077986548K",
+          "BD-02": "TDjZ-2019-HZ-1015",
+          "BD-04": "000000000171"
+        },
+        "subjectName": "回租融资租赁利息增值税"
+      },
+      {
+        "summary": "控股集团有限公司第12期租金2022-09-09",
+        "amount": 10765.92,
+        "dcSign": "C",
+        "emptyValue": "",
+        "index": 5,
+        "cashFlowSign": "no",
+        "creditAmount": 10765.92,
+        "subjectCode": "22210501",
+        "subjectName": "销项税额"
+      },
+      {
+        "summary": "控股集团有限公司第12期租金2022-09-09",
+        "amount": 179432,
+        "dcSign": "D",
+        "emptyValue": "",
+        "index": 6,
+        "cashFlowSign": "no",
+        "debitAmount": 179432,
+        "subjectCode": "15320201",
+        "assistItems": {
+          "0017": "9137077986548K",
+          "BD-02": "TDjZ-2019-HZ-1015",
+          "BD-04": "000000000171"
+        },
+        "subjectName": "回租未实现融资收益"
+      },
+      {
+        "summary": "控股集团有限公司第12期租金2022-09-09",
+        "amount": 179432,
+        "dcSign": "C",
+        "emptyValue": "",
+        "index": 7,
+        "cashFlowSign": "no",
+        "creditAmount": 179432,
+        "subjectCode": "11330101",
+        "assistItems": {
+          "0017": "9137077986548K",
+          "BD-04": "000000000171"
+        },
+        "subjectName": "应计收融资租赁收益"
+      }
+    ],
+    "templateUniqueId": "5e6f92e1f03ddd0ac454964d"
+  },
+  "status": "NEW",
+  "createdTime": "2022-09-09 15:34:02",
+  "createdUserId": "c5cc180b3c8f439085228ef8e72a945e",
+  "alteredTime": "2022-09-09 15:34:02",
+  "alteredUserId": "c5cc180b3c8f439085228ef8e72a945e",
+  "createdOrgId": "82062e7ad7c9495ebe23caa666855524",
+  "alteredOgrId": "82062e7ad7c9495ebe23caa666855524",
+  "_class": "com.cvicse.leasing.model.Document",
+  "commitId": "631aec6a6a1c452904d8d911_1",
+  "uniqueId": "631aec6a6a1c452904d8d911",
+  "version": "1"
+},
+{
+  "_id": "ObjectId(\"63291f1f6a1c452904d8db54\")",
+  "schemaUniqueCode": "voucher",
+  "content": {
+    "assitsItems": {
+      "deptName": "济南业务部",
+      "employeeName": "张XX",
+      "loanNum": "000000000171",
+      "unifiedCreditCode": "9137077986548K",
+      "sendState": "1",
+      "debtId": "000000000171_price",
+      "custName": "控股集团有限公司",
+      "custCode": "ZL00000419",
+      "assetType": "1",
+      "accDate": "2022-09-20",
+      "itemId": "5f81a7a7-e627-4c66-9310-e379de03c4c6",
+      "taxRate": "6.0",
+      "custId": "000000000681",
+      "contractId": "0000000489",
+      "currency": "CNY",
+      "projectName": "控股集团有限公司15000万元售后回租项目",
+      "businessType": "35",
+      "projectId": "201900231",
+      "contractCode": "TDjZ-2019-HZ-1015",
+      "ncReturnMsg": "传输成功",
+      "ncVoucherId": ""
+    },
+    "accountingDate": "2022-09-20",
+    "entryList": [
+      {
+        "summary": "控股集团有限公司收留购价款",
+        "amount": 100,
+        "dcSign": "D",
+        "index": 1,
+        "debitAmount": 100,
+        "subjectCode": "10110501",
+        "subjectName": "存放其他银行活期款项",
+        "assistItems": {
+          "0011": "817970001421003481"
+        }
+      },
+      {
+        "summary": "控股集团有限公司收留购价款",
+        "cashFlowCode": "1113",
+        "amount": 5.66,
+        "dcSign": "C",
+        "emptyValue": "",
+        "index": 2,
+        "cashFlowSign": "yes",
+        "creditAmount": 5.66,
+        "subjectCode": "22210501",
+        "subjectName": "销项税额"
+      },
+      {
+        "summary": "控股集团有限公司收留购价款",
+        "cashFlowCode": "1113",
+        "amount": 94.34,
+        "dcSign": "C",
+        "emptyValue": "",
+        "index": 3,
+        "cashFlowSign": "yes",
+        "creditAmount": 94.34,
+        "subjectCode": "60410401",
+        "assistItems": {
+          "0017": "9137077986548K",
+          "BD-02": "TDjZ-2019-HZ-1015",
+          "BD-04": "000000000171"
+        },
+        "subjectName": "名义货价收入"
+      }
+    ],
+    "templateUniqueId": "5ff448bbc6bb481f94c1473c"
+  },
+  "status": "NEW",
+  "createdTime": "2022-09-20 10:02:07",
+  "createdUserId": "c5cc180b3c8f439085228ef8e72a945e",
+  "alteredTime": "2022-09-20 10:02:07",
+  "alteredUserId": "c5cc180b3c8f439085228ef8e72a945e",
+  "createdOrgId": "82062e7ad7c9495ebe23caa666855524",
+  "alteredOgrId": "82062e7ad7c9495ebe23caa666855524",
+  "_class": "com.cvicse.leasing.model.Document",
+  "commitId": "63291f1f6a1c452904d8db54_1",
+  "uniqueId": "63291f1f6a1c452904d8db54",
+  "version": "1"
+},
+{
+  "_id": "ObjectId(\"632baf656a1c4513e48a2c8e\")",
+  "schemaUniqueCode": "voucher",
+  "content": {
+    "assitsItems": {
+      "lendNum": "${lendnum}",
+      "deptName": "济南业务部",
+      "employeeName": "张XX",
+      "loanNum": "000000000171",
+      "lendId": "${lendId}",
+      "unifiedCreditCode": "9137077986548K",
+      "sendState": "1",
+      "debtId": "b94a1e171368476696b69ae5d8092b56",
+      "custName": "控股集团有限公司",
+      "accDate": "2022-09-22",
+      "projectCode": "201900231",
+      "contractId": "0000000489",
+      "custId": "000000000681",
+      "loanDate": "${loanDate}",
+      "currency": "CNY",
+      "projectName": "控股集团有限公司15000万元售后回租项目",
+      "businessType": "65",
+      "contractCode": "TDjZ-2019-HZ-1015",
+      "loanId": "000000000171",
+      "ncReturnMsg": "传输成功",
+      "ncVoucherId": ""
+    },
+    "accountingDate": "2022-09-22",
+    "entryList": [
+      {
+        "summary": "控股集团有限公司",
+        "amount": 21393.75,
+        "dcSign": "D",
+        "emptyValue": "",
+        "index": 1,
+        "cashFlowSign": "no",
+        "debitAmount": 21393.75,
+        "subjectCode": "11330101",
+        "assistItems": {
+          "0017": "9137077986548K",
+          "BD-04": "000000000171"
+        },
+        "subjectName": "应计收融资租赁收益"
+      },
+      {
+        "summary": "控股集团有限公司",
+        "amount": 21393.75,
+        "dcSign": "C",
+        "emptyValue": "",
+        "index": 2,
+        "cashFlowSign": "no",
+        "creditAmount": 21393.75,
+        "subjectCode": "60410201",
+        "assistItems": {
+          "0017": "9137077986548K",
+          "BD-02": "TDjZ-2019-HZ-1015",
+          "BD-04": "000000000171"
+        },
+        "subjectName": "回租融资租赁收入"
+      }
+    ],
+    "templateUniqueId": "5e899018f03ddd08a026b773"
+  },
+  "status": "NEW",
+  "createdTime": "2022-09-22 08:42:13",
+  "createdUserId": "c5cc180b3c8f439085228ef8e72a945e",
+  "alteredTime": "2022-09-22 08:42:13",
+  "alteredUserId": "c5cc180b3c8f439085228ef8e72a945e",
+  "createdOrgId": "82062e7ad7c9495ebe23caa666855524",
+  "alteredOgrId": "82062e7ad7c9495ebe23caa666855524",
+  "_class": "com.cvicse.leasing.model.Document",
+  "commitId": "632baf656a1c4513e48a2c8e_1",
+  "uniqueId": "632baf656a1c4513e48a2c8e",
+  "version": "1"
+},
+{
+  "_id": "ObjectId(\"632bb09c6a1c4513e48a33be\")",
+  "schemaUniqueCode": "voucher",
+  "content": {
+    "assitsItems": {
+      "lendNum": "${lendnum}",
+      "deptName": "济南业务部",
+      "employeeName": "张XX",
+      "loanNum": "000000000171",
+      "lendId": "${lendId}",
+      "unifiedCreditCode": "9137077986548K",
+      "sendState": "1",
+      "debtId": "b94a1e171368476696b69ae5d8092b56",
+      "custName": "控股集团有限公司",
+      "accDate": "2022-09-22",
+      "projectCode": "201900231",
+      "contractId": "0000000489",
+      "custId": "000000000681",
+      "loanDate": "${loanDate}",
+      "currency": "CNY",
+      "projectName": "控股集团有限公司15000万元售后回租项目",
+      "businessType": "24",
+      "contractCode": "TDjZ-2019-HZ-1015",
+      "loanId": "000000000171",
+      "ncReturnMsg": "传输成功",
+      "ncVoucherId": ""
+    },
+    "accountingDate": "2022-09-22",
+    "entryList": [
+      {
+        "summary": "控股集团有限公司",
+        "amount": 3177.93,
+        "dcSign": "D",
+        "emptyValue": "",
+        "index": 1,
+        "cashFlowSign": "no",
+        "debitAmount": 3177.93,
+        "subjectCode": "22059901",
+        "assistItems": {
+          "0017": "9137077986548K",
+          "BD-02": "TDjZ-2019-HZ-1015",
+          "BD-04": "000000000171"
+        },
+        "subjectName": "其他预收账款"
+      },
+      {
+        "summary": "控股集团有限公司",
+        "amount": 3177.93,
+        "dcSign": "C",
+        "emptyValue": "",
+        "index": 2,
+        "cashFlowSign": "no",
+        "creditAmount": 3177.93,
+        "subjectCode": "60210201",
+        "assistItems": {
+          "0017": "9137077986548K",
+          "BD-02": "TDjZ-2019-HZ-1015",
+          "BD-04": "000000000171"
+        },
+        "subjectName": "回租融资租赁手续费及佣金收入"
+      }
+    ],
+    "templateUniqueId": "6193203bdcf88d369020ed7a"
+  },
+  "status": "NEW",
+  "createdTime": "2022-09-22 08:47:24",
+  "createdUserId": "c5cc180b3c8f439085228ef8e72a945e",
+  "alteredTime": "2022-09-22 08:47:24",
+  "alteredUserId": "c5cc180b3c8f439085228ef8e72a945e",
+  "createdOrgId": "82062e7ad7c9495ebe23caa666855524",
+  "alteredOgrId": "82062e7ad7c9495ebe23caa666855524",
+  "_class": "com.cvicse.leasing.model.Document",
+  "commitId": "632bb09c6a1c4513e48a33be_1",
+  "uniqueId": "632bb09c6a1c4513e48a33be",
+  "version": "1"
+}

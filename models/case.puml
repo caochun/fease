@@ -1,0 +1,39 @@
+@startuml case
+
+object contract_main_0000000489{
+    id = 0000000489
+    ContractCode = "TDjZ-2019-HZ-1015"
+    SignContractDate="2019-09-11"
+    lessor
+    customer
+}
+
+object lessor1{
+    name = "XX金融租赁有限公司"
+    legalRepresentativeL = "某某某"
+    businessRepresentative = 91370100MA3CBNXP0Y
+    location = "济南市历下区金融中心A座12楼",
+}
+
+object customer_000000000681 {
+    customerUniqueId="000000000681"
+    custId="ZL00000419"
+    custName="控股集团有限公司"
+    legalRepresentative= "王某某"
+    registeredAddress= "山东省济南市莱芜区XX路123号",
+    mainBusinessScope="基础设施"
+
+}
+
+
+object project_201900231{
+    projectNo="201900231"
+    projectName="控股集团有限公司15000万元售后回租项目"
+    customer
+}
+
+contract_main_0000000489::lessor-->lessor1
+contract_main_0000000489::customer-->customer_000000000681
+project_201900231::customer-->customer_000000000681
+
+@end

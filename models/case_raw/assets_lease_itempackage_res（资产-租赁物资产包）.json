@@ -1,0 +1,41 @@
+{
+  "_id": "000000000408_0000000489",
+  "schemaUniqueCode": "leaseItemPackage",
+  "uniqueId": "000000000408_0000000489",
+  "commitId": "000000000408_0000000489_1",
+  "version": "1",
+  "status": "RELEASE",
+  "content": {
+    "formData": {
+      "leaseId": "000000000408",
+      "projectUniqueId": "201900231",
+      "leaseCommitId": "000000000408_1",
+      "title": "市政管道",
+      "_transfer": true
+    }
+  },
+  "_class": "com.cvicse.leasing.model.Document"
+},
+{
+  "_id": "ObjectId(\"63a9555a93e4e61794a9ccc3\")",
+  "uniqueId": "63a9555a93e4e61794a9ccc3",
+  "schemaUniqueCode": "leaseItemPackage",
+  "content": {
+    "formData": {
+      "leaseId": "63a9555a93e4e61794a9ccc2",
+      "projectUniqueId": "63a951a693e4e61794a9cc60",
+      "leaseCommitId": "63a9555a93e4e61794a9ccc2_2",
+      "title": "大型谷物设备"
+    }
+  },
+  "status": "RELEASE",
+  "version": "2",
+  "commitId": "63a9555a93e4e61794a9ccc3_2",
+  "createdTime": "2022-12-26 16:03:38",
+  "createdUserId": "297cc8ba2ba3454383abb1c393889393",
+  "alteredTime": "2022-12-26 16:58:45",
+  "alteredUserId": "7fdbbb3b21204cd5aca2bacae24416c6",
+  "createdOrgId": "b94a1e171368476696b69ae5d8092b56",
+  "alteredOgrId": "3607bd61450a4078b1371125869d8e87",
+  "_class": "com.cvicse.leasing.model.Document"
+}

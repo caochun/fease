@@ -1,0 +1,59 @@
+{
+  "_id": "000000000681",
+  "schemaUniqueCode": "custBasicInfo",
+  "uniqueId": "000000000681",
+  "content": {
+    "formData": {
+      "customerUniqueId": "000000000681",
+      "customerCommitId": "000000000681_1",
+      "_transfer": true,
+      "custId": "ZL00000419",
+      "custName": "控股集团有限公司",
+      "businessBackground": "110",
+      "custNature": "1",
+      "legalRepresentative": "王某某",
+      "legalRepresentativeId": "370902************",
+      "custRole": [
+        "0"
+      ],
+      "companynature": [],
+      "whetherGroupHeadquarters": "",
+      "custIndustry": "N7810",
+      "customerSize": "00",
+      "location": "370116",
+      "primaryMG": "297cc8ba2ba3454383abb1c393889393",
+      "chiefDept": "b94a1e171368476696b69ae5d8092b56",
+      "custSource": "1",
+      "unifiedCreditCodeOld": "91370********K",
+      "registraDate": "2013-09-13",
+      "licenseDate": "9999-12-30",
+      "registeredCapital": 50000,
+      "registCapCurrency": "CNY",
+      "registeredAddress": "山东省济南市莱芜区XX路123号",
+      "mainBusinessScope": "基础设施",
+      "investmentType": [
+        "货币"
+      ],
+      "annualInspectionNY": "0",
+      "annualInspectionDate": null,
+      "payableCurrency": "CNY",
+      "paid-inCapital": 50000,
+      "unifiedCreditCode": "91370********K",
+      "taxAccBankAcc": "****105014********",
+      "taxAdd": "山东省济南市莱芜区XX路123号",
+      "taxBank": "XX银行XX支行",
+      "taxIdentNum": "91370********K",
+      "taxLandline": "0634-587****"
+    }
+  },
+  "commitId": "000000000681_1",
+  "version": "1",
+  "status": "RELEASE",
+  "createdTime": "2019-09-11",
+  "alteredTime": "2020-11-09",
+  "createdUserId": "297cc8ba2ba3454383abb1c393889393",
+  "alteredUserId": "297cc8ba2ba3454383abb1c393889393",
+  "createdOrgId": "b94a1e171368476696b69ae5d8092b56",
+  "alteredOgrId": "b94a1e171368476696b69ae5d8092b56",
+  "_class": "com.cvicse.leasing.model.Document"
+}
