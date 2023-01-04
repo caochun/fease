@@ -6,6 +6,36 @@ object contract_main_0000000489{
     SignContractDate="2019-09-11"
     lessor
     customer
+    accessories
+}
+
+object contract_accessory_0000000489_1{
+    accessoryCode="TDJZ-2019-HZ-1015保"
+    accessoryContractName="保证合同（第三方法人）"
+    Guaraitor="XX文化旅游发展有限公司"
+}
+
+object contract_accessory_0000000489_2{
+    accessoryCode="TDjZ-2019-HZ-1015抵"
+    accessoryContractName="抵押合同（第三方法人）"
+    mortgagor="XXX国有资产经营总公司"
+    guarantees
+}
+
+object contract_accessory_0000000489_3{
+    accessoryCode="TDjZ-2019-HZ-1015买"
+    accessoryContractName="买卖合同"
+    supplier="XX重型机械有限公司"
+    leaseBasic
+}
+
+object asset_63a955e693e4e61794a9ccc6{
+    commodityName="房产"
+    fairValue=25600000
+}
+
+object asset_63a9555a93e4e61794a9ccc3{
+    name="大型谷物设备"
 }
 
 object lessor1{
@@ -20,7 +50,7 @@ object customer_000000000681 {
     custId="ZL00000419"
     custName="控股集团有限公司"
     legalRepresentative= "王某某"
-    registeredAddress= "山东省济南市莱芜区XX路123号",
+    registeredAddress= "山东省济南市莱芜区XX路123号"
     mainBusinessScope="基础设施"
 
 }
@@ -35,5 +65,9 @@ object project_201900231{
 contract_main_0000000489::lessor-->lessor1
 contract_main_0000000489::customer-->customer_000000000681
 project_201900231::customer-->customer_000000000681
-
+contract_main_0000000489::accessories-->contract_accessory_0000000489_1
+contract_main_0000000489::accessories-->contract_accessory_0000000489_2
+contract_main_0000000489::accessories-->contract_accessory_0000000489_3
+contract_accessory_0000000489_2::guarantees-->asset_63a955e693e4e61794a9ccc6
+contract_accessory_0000000489_3::leaseBasic-->asset_63a9555a93e4e61794a9ccc3
 @end
