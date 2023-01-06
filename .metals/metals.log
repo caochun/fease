@@ -16141,3 +16141,416 @@ javac: 找不到文件: /Users/chun/Develop/fease/src/test/java/info/nemoworks/m
 2023.01.06 15:53:26 ERROR javac: 无效的目标发行版: 11
 2023.01.06 15:53:26 WARN  javac exited with exit code 2
 2023.01.06 15:53:26 INFO  time: compiled fease in 0.49s
+2023.01.06 15:55:11 INFO  compiling fease (23 java sources)
+2023.01.06 15:55:11 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 15:55:11 ERROR javac: 无效的目标发行版: 11
+2023.01.06 15:55:11 WARN  javac exited with exit code 2
+2023.01.06 15:55:11 INFO  time: compiled fease in 0.64s
+2023.01.06 15:55:19 INFO  compiling fease (23 java sources)
+2023.01.06 15:55:19 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 15:55:19 ERROR javac: 无效的目标发行版: 11
+2023.01.06 15:55:19 WARN  javac exited with exit code 2
+2023.01.06 15:55:19 INFO  time: compiled fease in 0.49s
+2023.01.06 15:55:21 INFO  compiling fease (23 java sources)
+2023.01.06 15:55:21 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 15:55:21 ERROR javac: 无效的目标发行版: 11
+2023.01.06 15:55:21 WARN  javac exited with exit code 2
+2023.01.06 15:55:21 INFO  time: compiled fease in 0.5s
+2023.01.06 15:55:35 INFO  compiling fease (23 java sources)
+2023.01.06 15:55:35 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 15:55:35 ERROR javac: 无效的目标发行版: 11
+2023.01.06 15:55:35 WARN  javac exited with exit code 2
+2023.01.06 15:55:35 INFO  time: compiled fease in 0.53s
+2023.01.06 15:55:41 INFO  compiling fease (23 java sources)
+2023.01.06 15:55:41 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 15:55:41 ERROR javac: 无效的目标发行版: 11
+2023.01.06 15:55:41 WARN  javac exited with exit code 2
+2023.01.06 15:55:41 INFO  time: compiled fease in 0.49s
+2023.01.06 15:57:50 INFO  compiling fease (23 java sources)
+2023.01.06 15:57:50 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 15:57:50 ERROR javac: 无效的目标发行版: 11
+2023.01.06 15:57:50 WARN  javac exited with exit code 2
+2023.01.06 15:57:50 INFO  time: compiled fease in 0.48s
+2023.01.06 15:57:50 INFO  compiling fease (23 java sources)
+2023.01.06 15:57:51 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 15:57:51 ERROR javac: 无效的目标发行版: 11
+2023.01.06 15:57:51 WARN  javac exited with exit code 2
+2023.01.06 15:57:51 INFO  time: compiled fease in 0.47s
+2023.01.06 15:59:38 INFO  compiling fease (23 java sources)
+2023.01.06 15:59:38 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 15:59:38 ERROR javac: 无效的目标发行版: 11
+2023.01.06 15:59:38 WARN  javac exited with exit code 2
+2023.01.06 15:59:38 INFO  time: compiled fease in 0.49s
+2023.01.06 16:01:51 INFO  compiling fease (24 java sources)
+2023.01.06 16:01:51 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 16:01:51 ERROR javac: 无效的目标发行版: 11
+2023.01.06 16:01:51 WARN  javac exited with exit code 2
+2023.01.06 16:01:51 INFO  time: compiled fease in 0.51s
+2023.01.06 16:01:51 INFO  compiling fease (24 java sources)
+2023.01.06 16:01:52 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 16:01:52 ERROR javac: 无效的目标发行版: 11
+2023.01.06 16:01:52 WARN  javac exited with exit code 2
+2023.01.06 16:01:52 INFO  time: compiled fease in 0.47s
+2023.01.06 16:02:08 INFO  compiling fease (25 java sources)
+2023.01.06 16:02:08 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 16:02:08 ERROR javac: 无效的目标发行版: 11
+2023.01.06 16:02:08 WARN  javac exited with exit code 2
+2023.01.06 16:02:08 INFO  time: compiled fease in 0.58s
+2023.01.06 16:02:08 INFO  compiling fease (25 java sources)
+2023.01.06 16:02:09 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 16:02:09 ERROR javac: 无效的目标发行版: 11
+2023.01.06 16:02:09 WARN  javac exited with exit code 2
+2023.01.06 16:02:09 INFO  time: compiled fease in 0.49s
+2023.01.06 16:02:25 INFO  compiling fease (25 java sources)
+2023.01.06 16:02:25 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 16:02:25 ERROR javac: 无效的目标发行版: 11
+2023.01.06 16:02:25 WARN  javac exited with exit code 2
+2023.01.06 16:02:25 INFO  time: compiled fease in 0.55s
+2023.01.06 16:05:27 INFO  compiling fease (25 java sources)
+2023.01.06 16:05:27 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 16:05:27 ERROR javac: 无效的目标发行版: 11
+2023.01.06 16:05:27 WARN  javac exited with exit code 2
+2023.01.06 16:05:27 INFO  time: compiled fease in 0.52s
+2023.01.06 16:08:13 INFO  compiling fease (26 java sources)
+2023.01.06 16:08:13 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 16:08:13 ERROR javac: 无效的目标发行版: 11
+2023.01.06 16:08:13 WARN  javac exited with exit code 2
+2023.01.06 16:08:13 INFO  time: compiled fease in 0.62s
+2023.01.06 16:08:24 INFO  compiling fease (26 java sources)
+2023.01.06 16:08:24 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 16:08:24 ERROR javac: 无效的目标发行版: 11
+2023.01.06 16:08:24 WARN  javac exited with exit code 2
+2023.01.06 16:08:24 INFO  time: compiled fease in 0.48s
+2023.01.06 16:08:42 INFO  compiling fease (26 java sources)
+2023.01.06 16:08:42 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 16:08:42 ERROR javac: 无效的目标发行版: 11
+2023.01.06 16:08:42 WARN  javac exited with exit code 2
+2023.01.06 16:08:42 INFO  time: compiled fease in 0.52s
+2023.01.06 16:09:02 INFO  compiling fease (27 java sources)
+2023.01.06 16:09:02 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 16:09:02 ERROR javac: 无效的目标发行版: 11
+2023.01.06 16:09:02 WARN  javac exited with exit code 2
+2023.01.06 16:09:02 INFO  time: compiled fease in 0.61s
+2023.01.06 16:12:06 INFO  compiling fease (27 java sources)
+2023.01.06 16:12:06 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 16:12:06 ERROR javac: 无效的目标发行版: 11
+2023.01.06 16:12:06 WARN  javac exited with exit code 2
+2023.01.06 16:12:06 INFO  time: compiled fease in 0.49s
+2023.01.06 16:12:28 INFO  compiling fease (27 java sources)
+2023.01.06 16:12:28 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 16:12:28 ERROR javac: 无效的目标发行版: 11
+2023.01.06 16:12:28 WARN  javac exited with exit code 2
+2023.01.06 16:12:28 INFO  time: compiled fease in 0.5s
+2023.01.06 16:12:28 INFO  compiling fease (27 java sources)
+2023.01.06 16:12:29 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 16:12:29 ERROR javac: 无效的目标发行版: 11
+2023.01.06 16:12:29 WARN  javac exited with exit code 2
+2023.01.06 16:12:29 INFO  time: compiled fease in 0.5s
+2023.01.06 16:12:45 INFO  compiling fease (27 java sources)
+2023.01.06 16:12:45 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 16:12:45 ERROR javac: 无效的目标发行版: 11
+2023.01.06 16:12:45 WARN  javac exited with exit code 2
+2023.01.06 16:12:45 INFO  time: compiled fease in 0.51s
+2023.01.06 16:12:55 INFO  compiling fease (27 java sources)
+2023.01.06 16:12:55 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 16:12:55 ERROR javac: 无效的目标发行版: 11
+2023.01.06 16:12:55 WARN  javac exited with exit code 2
+2023.01.06 16:12:55 INFO  time: compiled fease in 0.47s
+2023.01.06 16:13:08 INFO  compiling fease (27 java sources)
+2023.01.06 16:13:08 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 16:13:08 ERROR javac: 无效的目标发行版: 11
+2023.01.06 16:13:08 WARN  javac exited with exit code 2
+2023.01.06 16:13:08 INFO  time: compiled fease in 0.51s
+2023.01.06 16:13:35 INFO  compiling fease (27 java sources)
+2023.01.06 16:13:35 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 16:13:35 ERROR javac: 无效的目标发行版: 11
+2023.01.06 16:13:35 WARN  javac exited with exit code 2
+2023.01.06 16:13:35 INFO  time: compiled fease in 0.59s
+2023.01.06 16:13:39 INFO  compiling fease (27 java sources)
+2023.01.06 16:13:39 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 16:13:39 ERROR javac: 无效的目标发行版: 11
+2023.01.06 16:13:39 WARN  javac exited with exit code 2
+2023.01.06 16:13:39 INFO  time: compiled fease in 0.47s
+2023.01.06 16:13:47 INFO  compiling fease (27 java sources)
+2023.01.06 16:13:47 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 16:13:47 ERROR javac: 无效的目标发行版: 11
+2023.01.06 16:13:47 WARN  javac exited with exit code 2
+2023.01.06 16:13:47 INFO  time: compiled fease in 0.51s
+2023.01.06 16:13:58 INFO  compiling fease (27 java sources)
+2023.01.06 16:13:58 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 16:13:58 ERROR javac: 无效的目标发行版: 11
+2023.01.06 16:13:58 WARN  javac exited with exit code 2
+2023.01.06 16:13:58 INFO  time: compiled fease in 0.56s
+2023.01.06 16:14:34 INFO  compiling fease (27 java sources)
+2023.01.06 16:14:34 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 16:14:34 ERROR javac: 无效的目标发行版: 11
+2023.01.06 16:14:34 WARN  javac exited with exit code 2
+2023.01.06 16:14:34 INFO  time: compiled fease in 0.53s
+2023.01.06 16:16:58 INFO  compiling fease (27 java sources)
+2023.01.06 16:16:58 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 16:16:58 ERROR javac: 无效的目标发行版: 11
+2023.01.06 16:16:58 WARN  javac exited with exit code 2
+2023.01.06 16:16:58 INFO  time: compiled fease in 0.5s
+2023.01.06 16:16:59 INFO  compiling fease (27 java sources)
+2023.01.06 16:16:59 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 16:16:59 ERROR javac: 无效的目标发行版: 11
+2023.01.06 16:16:59 WARN  javac exited with exit code 2
+2023.01.06 16:16:59 INFO  time: compiled fease in 0.56s
+2023.01.06 16:16:59 INFO  compiling fease (27 java sources)
+2023.01.06 16:17:00 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 16:17:00 ERROR javac: 无效的目标发行版: 11
+2023.01.06 16:17:00 WARN  javac exited with exit code 2
+2023.01.06 16:17:00 INFO  time: compiled fease in 0.52s
+2023.01.06 16:17:04 INFO  compiling fease (26 java sources)
+2023.01.06 16:17:04 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 16:17:04 ERROR javac: 无效的目标发行版: 11
+2023.01.06 16:17:04 WARN  javac exited with exit code 2
+2023.01.06 16:17:04 INFO  time: compiled fease in 0.49s
+2023.01.06 16:17:04 INFO  compiling fease (25 java sources)
+2023.01.06 16:17:05 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 16:17:05 ERROR javac: 无效的目标发行版: 11
+2023.01.06 16:17:05 WARN  javac exited with exit code 2
+2023.01.06 16:17:05 INFO  time: compiled fease in 0.53s
+2023.01.06 16:17:05 INFO  compiling fease (25 java sources)
+2023.01.06 16:17:05 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 16:17:05 ERROR javac: 无效的目标发行版: 11
+2023.01.06 16:17:05 WARN  javac exited with exit code 2
+2023.01.06 16:17:05 INFO  time: compiled fease in 0.47s
+2023.01.06 16:17:34 INFO  compiling fease (25 java sources)
+2023.01.06 16:17:34 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 16:17:34 ERROR javac: 无效的目标发行版: 11
+2023.01.06 16:17:34 WARN  javac exited with exit code 2
+2023.01.06 16:17:34 INFO  time: compiled fease in 0.5s
+2023.01.06 16:17:35 INFO  compiling fease (25 java sources)
+2023.01.06 16:17:35 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 16:17:35 ERROR javac: 无效的目标发行版: 11
+2023.01.06 16:17:35 WARN  javac exited with exit code 2
+2023.01.06 16:17:35 INFO  time: compiled fease in 0.47s
+2023.01.06 16:19:04 INFO  compiling fease (25 java sources)
+2023.01.06 16:19:04 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 16:19:04 ERROR javac: 无效的目标发行版: 11
+2023.01.06 16:19:04 WARN  javac exited with exit code 2
+2023.01.06 16:19:04 INFO  time: compiled fease in 0.47s
+2023.01.06 16:19:29 INFO  compiling fease (25 java sources)
+2023.01.06 16:19:29 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 16:19:29 ERROR javac: 无效的目标发行版: 11
+2023.01.06 16:19:29 WARN  javac exited with exit code 2
+2023.01.06 16:19:29 INFO  time: compiled fease in 0.56s
+2023.01.06 16:19:37 INFO  compiling fease (25 java sources)
+2023.01.06 16:19:37 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 16:19:37 ERROR javac: 无效的目标发行版: 11
+2023.01.06 16:19:37 WARN  javac exited with exit code 2
+2023.01.06 16:19:37 INFO  time: compiled fease in 0.51s
+2023.01.06 16:20:11 INFO  compiling fease (25 java sources)
+2023.01.06 16:20:11 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 16:20:11 ERROR javac: 无效的目标发行版: 11
+2023.01.06 16:20:11 WARN  javac exited with exit code 2
+2023.01.06 16:20:11 INFO  time: compiled fease in 0.52s
+2023.01.06 16:20:21 INFO  compiling fease (25 java sources)
+2023.01.06 16:20:21 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 16:20:21 ERROR javac: 无效的目标发行版: 11
+2023.01.06 16:20:21 WARN  javac exited with exit code 2
+2023.01.06 16:20:21 INFO  time: compiled fease in 0.53s
+2023.01.06 16:20:21 INFO  compiling fease (25 java sources)
+2023.01.06 16:20:22 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 16:20:22 ERROR javac: 无效的目标发行版: 11
+2023.01.06 16:20:22 WARN  javac exited with exit code 2
+2023.01.06 16:20:22 INFO  time: compiled fease in 0.48s
+2023.01.06 16:20:58 INFO  compiling fease (25 java sources)
+2023.01.06 16:20:58 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 16:20:58 ERROR javac: 无效的目标发行版: 11
+2023.01.06 16:20:58 WARN  javac exited with exit code 2
+2023.01.06 16:20:58 INFO  time: compiled fease in 0.57s
+2023.01.06 16:21:04 INFO  compiling fease (25 java sources)
+2023.01.06 16:21:04 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 16:21:04 ERROR javac: 无效的目标发行版: 11
+2023.01.06 16:21:04 WARN  javac exited with exit code 2
+2023.01.06 16:21:04 INFO  time: compiled fease in 0.53s
+2023.01.06 16:21:18 INFO  compiling fease (25 java sources)
+2023.01.06 16:21:18 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 16:21:18 ERROR javac: 无效的目标发行版: 11
+2023.01.06 16:21:18 WARN  javac exited with exit code 2
+2023.01.06 16:21:18 INFO  time: compiled fease in 0.49s
+2023.01.06 16:21:18 INFO  compiling fease (25 java sources)
+2023.01.06 16:21:19 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 16:21:19 ERROR javac: 无效的目标发行版: 11
+2023.01.06 16:21:19 WARN  javac exited with exit code 2
+2023.01.06 16:21:19 INFO  time: compiled fease in 0.5s
+2023.01.06 16:21:25 INFO  compiling fease (25 java sources)
+2023.01.06 16:21:25 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 16:21:25 ERROR javac: 无效的目标发行版: 11
+2023.01.06 16:21:25 WARN  javac exited with exit code 2
+2023.01.06 16:21:25 INFO  time: compiled fease in 0.49s
+2023.01.06 16:22:55 INFO  compiling fease (25 java sources)
+2023.01.06 16:22:55 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 16:22:55 ERROR javac: 无效的目标发行版: 11
+2023.01.06 16:22:55 WARN  javac exited with exit code 2
+2023.01.06 16:22:55 INFO  time: compiled fease in 0.49s
+2023.01.06 16:22:57 INFO  compiling fease (25 java sources)
+2023.01.06 16:22:57 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 16:22:57 ERROR javac: 无效的目标发行版: 11
+2023.01.06 16:22:57 WARN  javac exited with exit code 2
+2023.01.06 16:22:57 INFO  time: compiled fease in 0.48s
+2023.01.06 16:23:06 INFO  compiling fease (25 java sources)
+2023.01.06 16:23:06 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 16:23:06 ERROR javac: 无效的目标发行版: 11
+2023.01.06 16:23:06 WARN  javac exited with exit code 2
+2023.01.06 16:23:06 INFO  time: compiled fease in 0.46s
+2023.01.06 16:24:56 INFO  compiling fease (25 java sources)
+2023.01.06 16:24:56 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 16:24:56 ERROR javac: 无效的目标发行版: 11
+2023.01.06 16:24:56 WARN  javac exited with exit code 2
+2023.01.06 16:24:56 INFO  time: compiled fease in 0.51s
+2023.01.06 16:24:58 INFO  compiling fease (25 java sources)
+2023.01.06 16:24:58 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 16:24:58 ERROR javac: 无效的目标发行版: 11
+2023.01.06 16:24:58 WARN  javac exited with exit code 2
+2023.01.06 16:24:58 INFO  time: compiled fease in 0.48s
+2023.01.06 16:25:13 INFO  compiling fease (25 java sources)
+2023.01.06 16:25:13 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 16:25:13 ERROR javac: 无效的目标发行版: 11
+2023.01.06 16:25:13 WARN  javac exited with exit code 2
+2023.01.06 16:25:13 INFO  time: compiled fease in 0.51s
+2023.01.06 16:28:55 INFO  compiling fease (25 java sources)
+2023.01.06 16:28:55 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 16:28:55 ERROR javac: 无效的目标发行版: 11
+2023.01.06 16:28:55 WARN  javac exited with exit code 2
+2023.01.06 16:28:55 INFO  time: compiled fease in 0.48s
+2023.01.06 16:28:57 INFO  compiling fease (25 java sources)
+2023.01.06 16:28:57 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 16:28:57 ERROR javac: 无效的目标发行版: 11
+2023.01.06 16:28:57 WARN  javac exited with exit code 2
+2023.01.06 16:28:57 INFO  time: compiled fease in 0.49s
+2023.01.06 16:29:05 INFO  compiling fease (25 java sources)
+2023.01.06 16:29:05 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 16:29:05 ERROR javac: 无效的目标发行版: 11
+2023.01.06 16:29:05 WARN  javac exited with exit code 2
+2023.01.06 16:29:05 INFO  time: compiled fease in 0.48s
+2023.01.06 16:29:08 INFO  compiling fease (25 java sources)
+2023.01.06 16:29:08 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 16:29:08 ERROR javac: 无效的目标发行版: 11
+2023.01.06 16:29:08 WARN  javac exited with exit code 2
+2023.01.06 16:29:08 INFO  time: compiled fease in 0.5s
+2023.01.06 16:29:13 INFO  compiling fease (25 java sources)
+2023.01.06 16:29:13 WARN  Unexpected javac output: javac: 无效的目标发行版: 11
+用法: javac <options> <source files>
+-help 用于列出可能的选项.
+2023.01.06 16:29:13 ERROR javac: 无效的目标发行版: 11
+2023.01.06 16:29:13 WARN  javac exited with exit code 2
+2023.01.06 16:29:13 INFO  time: compiled fease in 0.49s

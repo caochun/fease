@@ -1,5 +1,8 @@
 package info.nemoworks.fease.model;
 
+import lombok.AllArgsConstructor;
+
+@AllArgsConstructor
 class SubContract extends Entity {
 
     public static enum Type{
