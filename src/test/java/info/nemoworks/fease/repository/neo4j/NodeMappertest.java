@@ -1,4 +1,4 @@
-package info.nemoworks.fease.storage.neo4j;
+package info.nemoworks.fease.repository.neo4j;
 
 import org.junit.jupiter.api.Test;
 

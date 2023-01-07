@@ -1,9 +1,8 @@
-package info.nemoworks.fease.storage.mongodb;
+package info.nemoworks.fease.repository.mongodb.model;
 
 import info.nemoworks.fease.model.Contract;
 import info.nemoworks.fease.model.Customer;
 import org.mapstruct.Mapper;
-import org.mapstruct.Mapping;
 import org.mapstruct.factory.Mappers;
 
 @Mapper

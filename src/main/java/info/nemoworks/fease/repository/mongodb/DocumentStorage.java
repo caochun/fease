@@ -1,15 +1,19 @@
-package info.nemoworks.fease.storage.mongodb;
+package info.nemoworks.fease.repository.mongodb;
 
 import info.nemoworks.fease.model.Contract;
 import info.nemoworks.fease.model.Customer;
 import info.nemoworks.fease.model.Entity;
-import info.nemoworks.fease.storage.EntityStorage;
+import info.nemoworks.fease.repository.EntityRepository;
+import info.nemoworks.fease.repository.mongodb.model.DocumentMapper;
+import info.nemoworks.fease.repository.mongodb.model.ContractDocument;
+import info.nemoworks.fease.repository.mongodb.model.CustomerDocument;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Repository;
+
+import java.util.List;
 
 @Component
-public class DocumentStorage implements EntityStorage {
+public class DocumentStorage implements EntityRepository {
 
     @Autowired
     ContractRepository contractRepository;
@@ -21,7 +25,6 @@ public class DocumentStorage implements EntityStorage {
     public Entity get(String id) {
         return null;
     }
-
 
 
     @Override
@@ -41,6 +44,11 @@ public class DocumentStorage implements EntityStorage {
             Customer customer = DocumentMapper.INSTANCE.customerDocumentToCustomer(customerDocument);
             return customer;
         }
+        return null;
+    }
+
+    @Override
+    public List<Entity> findAll() {
         return null;
     }
 }

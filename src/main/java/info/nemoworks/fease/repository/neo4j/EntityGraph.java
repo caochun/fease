@@ -1,12 +1,14 @@
-package info.nemoworks.fease.storage.neo4j;
+package info.nemoworks.fease.repository.neo4j;
 
 import info.nemoworks.fease.model.Contract;
 import info.nemoworks.fease.model.Customer;
 import info.nemoworks.fease.model.Entity;
-import info.nemoworks.fease.storage.EntityStorage;
+import info.nemoworks.fease.repository.EntityRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 
-public class EntityGraph implements EntityStorage {
+import java.util.List;
+
+public class EntityGraph implements EntityRepository {
 
     @Autowired
     private ContractNodeRepository contractNodeRepository;
@@ -33,6 +35,11 @@ public class EntityGraph implements EntityStorage {
             return NodeMapper.INSTANCE.customerNodeToCustomer(customerNodeRepository.save(NodeMapper.INSTANCE.customerToCustomerNode((Customer) entity)));
 
         }
+        return null;
+    }
+
+    @Override
+    public List<Entity> findAll() {
         return null;
     }
 }

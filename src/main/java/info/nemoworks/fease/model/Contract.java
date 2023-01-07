@@ -7,6 +7,7 @@ import java.util.Map;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
+import org.codehaus.jettison.json.JSONObject;
 
 @Data
 @AllArgsConstructor
@@ -21,7 +22,7 @@ public class Contract extends Entity {
 
     private List<SubContract> subContracts;
 
-    private Map<String, Object> contents;
+    private JSONObject contents;
 
     private List<Project> projects;
 

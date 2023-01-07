@@ -1,9 +1,8 @@
 package info.nemoworks.fease;
 
-import info.nemoworks.fease.storage.neo4j.ContractNode;
-import info.nemoworks.fease.storage.neo4j.ContractNodeRepository;
-import info.nemoworks.fease.storage.neo4j.CustomerNode;
-import info.nemoworks.fease.storage.neo4j.CustomerNodeRepository;
+import info.nemoworks.fease.repository.neo4j.ContractNode;
+import info.nemoworks.fease.repository.neo4j.ContractNodeRepository;
+import info.nemoworks.fease.repository.neo4j.CustomerNode;
 import org.neo4j.configuration.connectors.BoltConnector;
 import org.neo4j.configuration.helpers.SocketAddress;
 import org.neo4j.dbms.api.DatabaseManagementService;

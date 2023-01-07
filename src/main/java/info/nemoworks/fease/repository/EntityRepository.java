@@ -1,13 +1,17 @@
-package info.nemoworks.fease.storage;
+package info.nemoworks.fease.repository;
 
 import info.nemoworks.fease.model.Entity;
 
-public interface EntityStorage {
+import java.util.List;
+
+public interface EntityRepository {
 
     Entity get(String id);
 
     void delete(Entity entity);
 
     Entity save(Entity entity);
+
+     List<Entity> findAll();
 
 }

@@ -1,5 +1,5 @@
 package info.nemoworks.fease.model;
 
-class Project extends Entity {
+public class Project extends Entity {
 
 }

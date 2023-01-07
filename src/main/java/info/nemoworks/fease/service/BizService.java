@@ -1,9 +1,9 @@
 package info.nemoworks.fease.service;
 
-import info.nemoworks.fease.storage.EntityStorage;
+import info.nemoworks.fease.repository.EntityRepository;
 
 public class BizService {
 
-    private EntityStorage storage;
+    private EntityRepository storage;
 
 }

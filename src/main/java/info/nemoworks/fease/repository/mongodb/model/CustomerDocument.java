@@ -1,4 +1,4 @@
-package info.nemoworks.fease.storage.mongodb;
+package info.nemoworks.fease.repository.mongodb.model;
 
 import lombok.Data;
 import org.springframework.data.annotation.Id;

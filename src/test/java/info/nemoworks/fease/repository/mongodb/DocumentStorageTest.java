@@ -1,4 +1,4 @@
-package info.nemoworks.fease.storage.mongodb;
+package info.nemoworks.fease.repository.mongodb;
 
 import org.json.JSONException;
 import org.json.JSONObject;
