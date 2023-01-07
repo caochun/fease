@@ -3,7 +3,6 @@ package info.nemoworks.fease.repository.mysql.model;
 import info.nemoworks.fease.model.Contract;
 import info.nemoworks.fease.model.Customer;
 import info.nemoworks.fease.model.Project;
-import info.nemoworks.fease.repository.neo4j.ContractNode;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 

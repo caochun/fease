@@ -4,15 +4,15 @@ import info.nemoworks.fease.model.Contract;
 import info.nemoworks.fease.model.Customer;
 import info.nemoworks.fease.model.Entity;
 import info.nemoworks.fease.repository.EntityRepository;
-import info.nemoworks.fease.repository.mysql.model.CustomerEntityRepository;
 import info.nemoworks.fease.repository.mysql.model.EntityMapper;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 
-@Component
+@Repository
 public class EntityDB implements EntityRepository {
 
     @Autowired
@@ -45,6 +45,6 @@ public class EntityDB implements EntityRepository {
 
     @Override
     public List<Entity> findAll() {
-        return null;
+        return contractEntityRepository.findAll().stream().map(c -> EntityMapper.INSTANCE.contractEntityToContract(c)).collect(Collectors.toList());
     }
 }

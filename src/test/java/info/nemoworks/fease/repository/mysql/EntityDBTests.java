@@ -14,6 +14,7 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 @DataJpaTest
 @AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)
 public class EntityDBTests {
+
     @Autowired
     private EntityDB entityDB;
 

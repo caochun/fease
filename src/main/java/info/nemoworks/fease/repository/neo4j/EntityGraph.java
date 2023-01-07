@@ -4,10 +4,13 @@ import info.nemoworks.fease.model.Contract;
 import info.nemoworks.fease.model.Customer;
 import info.nemoworks.fease.model.Entity;
 import info.nemoworks.fease.repository.EntityRepository;
+import info.nemoworks.fease.repository.neo4j.model.NodeMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
+@Repository
 public class EntityGraph implements EntityRepository {
 
     @Autowired

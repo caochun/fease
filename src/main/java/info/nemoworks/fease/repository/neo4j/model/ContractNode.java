@@ -1,4 +1,4 @@
-package info.nemoworks.fease.repository.neo4j;
+package info.nemoworks.fease.repository.neo4j.model;
 
 import lombok.Data;
 import org.json.JSONObject;
