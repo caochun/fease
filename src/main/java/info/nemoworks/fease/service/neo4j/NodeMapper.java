@@ -1,7 +1,9 @@
-package info.nemoworks.fease.repository.neo4j.model;
+package info.nemoworks.fease.service.neo4j;
 
 import info.nemoworks.fease.model.Contract;
 import info.nemoworks.fease.model.Customer;
+import info.nemoworks.fease.repository.neo4j.model.ContractNode;
+import info.nemoworks.fease.repository.neo4j.model.CustomerNode;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 

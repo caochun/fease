@@ -1,14 +1,14 @@
 package info.nemoworks.fease.model;
 
-import java.time.LocalDateTime;
-import java.util.List;
-import java.util.Map;
-
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 import org.codehaus.jettison.json.JSONObject;
+
+import java.time.LocalDate;
+import java.util.List;
+import java.util.Map;
 
 @Data
 @AllArgsConstructor
@@ -18,13 +18,13 @@ public class Contract extends Entity {
 
     private String code;
 
-    private LocalDateTime date;
+    private LocalDate date;
 
     private Customer customer;
 
     private List<SubContract> subContracts;
 
-    private JSONObject contents;
+    private Map<String, Object> contents;
 
     private List<Project> projects;
 

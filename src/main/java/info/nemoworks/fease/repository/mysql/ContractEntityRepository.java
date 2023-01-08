@@ -8,4 +8,7 @@ import org.springframework.stereotype.Repository;
 @Repository
 @Profile("mysql")
 public interface ContractEntityRepository extends JpaRepository<ContractEntity, Long> {
+
+    ContractEntity getContractEntityByCode(String code);
+
 }

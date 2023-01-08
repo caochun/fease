@@ -9,6 +9,7 @@ import org.springframework.data.neo4j.core.schema.Relationship;
 
 import java.time.LocalDateTime;
 import java.util.List;
+import java.util.Map;
 
 @Data
 @Node
@@ -25,5 +26,5 @@ public class ContractNode {
     @Relationship(type = "SUBCONTRACT")
     private List<ContractNode> subContracts;
 
-    private JSONObject contents;
+    private Map<String, Object> contents;
 }
