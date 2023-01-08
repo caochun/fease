@@ -6,10 +6,12 @@ import info.nemoworks.fease.model.Entity;
 import info.nemoworks.fease.repository.EntityRepository;
 import info.nemoworks.fease.repository.neo4j.model.NodeMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
+@Profile("neo4j")
 @Repository
 public class EntityGraph implements EntityRepository {
 

@@ -6,12 +6,14 @@ import info.nemoworks.fease.model.Entity;
 import info.nemoworks.fease.repository.EntityRepository;
 import info.nemoworks.fease.repository.mysql.model.EntityMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
 
+@Profile("mysql")
 @Repository
 public class EntityDB implements EntityRepository {
 

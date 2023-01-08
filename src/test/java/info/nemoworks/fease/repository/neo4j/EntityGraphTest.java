@@ -4,6 +4,7 @@ import info.nemoworks.fease.repository.neo4j.model.ContractNode;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.data.neo4j.DataNeo4jTest;
+import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.DynamicPropertyRegistry;
 import org.springframework.test.context.DynamicPropertySource;
 import org.springframework.transaction.annotation.Transactional;
@@ -21,6 +22,7 @@ import static org.springframework.transaction.annotation.Propagation.NEVER;
 @DataNeo4jTest
 @Testcontainers
 @Transactional(propagation = NEVER)
+@ActiveProfiles("neo4j")
 public class EntityGraphTest {
 
     @Container

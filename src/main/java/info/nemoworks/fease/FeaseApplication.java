@@ -1,15 +1,31 @@
 package info.nemoworks.fease;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
-import org.springframework.data.neo4j.repository.config.EnableNeo4jRepositories;
+import org.springframework.context.ApplicationContext;
+
+import java.util.Arrays;
 
 @SpringBootApplication
-//@EnableJpaRepositories(basePackages="info.nemoworks.fease.repository.mysql")
-@EnableNeo4jRepositories(basePackages="info.nemoworks.fease.repository.neo4j")
-public class FeaseApplication {
+public class FeaseApplication implements CommandLineRunner {
     public static void main(String[] args) {
         SpringApplication.run(FeaseApplication.class, args);
+    }
+
+    @Autowired
+    private ApplicationContext appContext;
+
+
+    @Override
+    public void run(String... args) throws Exception {
+
+        String[] beans = appContext.getBeanDefinitionNames();
+        Arrays.sort(beans);
+        for (String bean : beans) {
+            System.out.println(bean);
+        }
+
     }
 }
