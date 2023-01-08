@@ -1,1 +1,14 @@
-# fease
+# F(inance l)ease
+
+此项目用以金融租赁（Finance lease）为例介绍特定领域业务系统的设计开发。
+
+### 项目动机
+
+依照常规开发方法，业务系统开发首先对业务领域进行建模，抽象提炼其中受管理的关键性概念，继而将领域概念实现为相应业务模型，并编写相关的模型持久化层和业务服务访问层代码。例如一个简化的金融租赁场景业务模型如下图。
+
+![](https://www.plantuml.com/plantuml/png/XL7TIW916BtVf_ZOIsMbxaDy5T6vMpMSzI8gSA4VpJA3I53Cii0A2eFKnHdqPMOSzyfNQFDhTqUwQA_Ed3dV-SwSpL0dMtOg1HiAfJon3OCKAmMG7uDbRQe-cRnlmA41mIUuAxmEGkzDp6ORw7VFP7TW71j6pivI-Zk84uWLlvFNKusGhIir76q8nVh2gwhdkU0TiNXKjo-2FQa7L_DhrMJh4lqGevz6-ESt_g27Vk_pLR2ZFV7RNx67y1Wg8u8rGoAw0yiwIaD8HmgTrjK9oz9jy6KGa6RIETWdvbQ3qRsPj0cbXC2k2NiRSQvKTChPd4DX9vLAc77MxP5I-P-Hlx7Ji1gVYDamVBGQzbTZLzLV0TjSyvfgZjQyBjXKLdbSrx9nAXQzM8XdRFb75Hi5tKHRKAMn-cuyeHrYxIzYHmWl9ikg6yQJpRuUBqEA-My0)
+
+这一领域模型对该业务中固有概念及其关系进行了刻画，所开发实现的业务系统也要提服务实现对相应数据的管理，而开发过程中可能遇到以下问题：
+
+1. 数据持久化层可能需要面向各种数据库给出多个实现；
+2. 业务模型与持久化层的数据模型两者并不完全对应。
