@@ -1,0 +1,25 @@
+@startuml
+
+class Contract
+
+class ContractEntity
+
+class ContractMapper
+
+class ContractService
+
+class ContractRepository
+
+note "两者相互转换" as N2
+
+N2 .. Contract
+ContractEntity .. N2
+ContractMapper ..> Contract : 映射转换
+ContractMapper ..> ContractEntity : 映射转换
+
+ContractService ..> Contract : 获得存储访问 >
+ContractService o-- ContractMapper : 使用 >
+ContractRepository ..> ContractEntity : 存储访问
+ContractService o-- ContractRepository : 委托 >
+
+@end

@@ -7,6 +7,7 @@ import org.hibernate.annotations.TypeDef;
 
 import javax.persistence.*;
 import java.time.LocalDate;
+import java.util.List;
 import java.util.Map;
 
 @Entity
@@ -28,5 +29,11 @@ public class ContractEntity {
     @Type(type = "json")
     @Column(columnDefinition = "additional_Properties")
     private Map<String, Object> additionalProperties;
+
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "contract", fetch = FetchType.EAGER)
+    private List<SubContractEntity> subContracts;
+
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "contract", fetch = FetchType.EAGER)
+    private List<ProjectEntity> projects;
 
 }
