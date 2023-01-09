@@ -1,5 +1,7 @@
 out/*
 **/.DS_Store
+*.docx
+*.pdf
 
 # Created by https://www.toptal.com/developers/gitignore/api/maven,intellij,macos,windows
 # Edit at https://www.toptal.com/developers/gitignore?templates=maven,intellij,macos,windows
