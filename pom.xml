@@ -24,6 +24,7 @@
         <org.testcontainers.version>1.17.6</org.testcontainers.version>
         <org.neo4j.version>5.3.0</org.neo4j.version>
         <org.json.version>20220924</org.json.version>
+        <com.alibaba.version>2.0.22</com.alibaba.version>
     </properties>
 
     <dependencies>
@@ -37,6 +38,15 @@
             <groupId>org.mapstruct</groupId>
             <artifactId>mapstruct</artifactId>
             <version>${org.mapstruct.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>${com.alibaba.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
