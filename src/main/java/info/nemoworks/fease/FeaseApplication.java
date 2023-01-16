@@ -10,8 +10,8 @@ import org.springframework.core.env.Environment;
 
 import java.util.Arrays;
 
-@SpringBootApplication
-@ComponentScan(basePackages = {"info.nemoworks.fease.service", "info.nemoworks.fease.repository"})
+//@SpringBootApplication
+//@ComponentScan(basePackages = {"info.nemoworks.fease.service", "info.nemoworks.fease.repository"})
 public class FeaseApplication implements CommandLineRunner {
     public static void main(String[] args) {
         SpringApplication.run(FeaseApplication.class, args);

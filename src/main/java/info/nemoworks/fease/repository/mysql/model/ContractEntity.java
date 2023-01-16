@@ -17,23 +17,25 @@ import java.util.Map;
 public class ContractEntity {
     @Id
     @GeneratedValue
-    @Column(name="id")
+    @Column(name = "contract_id")
     protected Long id;
 
-    @Column(name="code")
+    @Column(name = "code")
     private String code;
 
-    @Column(name="date_sign")
+    @Column(name = "date_sign")
     private LocalDate date;
 
     @Type(type = "json")
-    @Column(columnDefinition = "additional_Properties")
+    @Column(name = "additional_Properties")
     private Map<String, Object> additionalProperties;
 
-    @OneToMany(cascade = CascadeType.ALL, mappedBy = "contract", fetch = FetchType.EAGER)
+    @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
+    @Column(name = "sub_contracts")
     private List<SubContractEntity> subContracts;
-
-    @OneToMany(cascade = CascadeType.ALL, mappedBy = "contract", fetch = FetchType.EAGER)
-    private List<ProjectEntity> projects;
+//
+//    @OneToMany(mappedBy = "contract")
+//    @Column(name = "projects")
+//    private List<ProjectEntity> projects;
 
 }

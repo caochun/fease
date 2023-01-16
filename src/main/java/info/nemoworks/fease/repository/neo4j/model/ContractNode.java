@@ -1,13 +1,12 @@
 package info.nemoworks.fease.repository.neo4j.model;
 
 import lombok.Data;
-import org.json.JSONObject;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.neo4j.core.schema.GeneratedValue;
 import org.springframework.data.neo4j.core.schema.Node;
 import org.springframework.data.neo4j.core.schema.Relationship;
 
-import java.time.LocalDateTime;
+import java.time.LocalDate;
 import java.util.List;
 import java.util.Map;
 
@@ -18,7 +17,7 @@ public class ContractNode {
     @Id @GeneratedValue
     private Long id;
 
-    private LocalDateTime date;
+    private LocalDate date;
 
     @Relationship(type = "CUSTOMER")
     private CustomerNode customer;
