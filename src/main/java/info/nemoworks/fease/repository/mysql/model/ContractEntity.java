@@ -30,12 +30,11 @@ public class ContractEntity {
     @Column(name = "additional_Properties")
     private Map<String, Object> additionalProperties;
 
-    @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
-    @Column(name = "sub_contracts")
+    @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true, mappedBy = "contract")
     private List<SubContractEntity> subContracts;
-//
-//    @OneToMany(mappedBy = "contract")
-//    @Column(name = "projects")
-//    private List<ProjectEntity> projects;
+
+    @OneToMany(mappedBy = "contract")
+    @Column(name = "projects")
+    private List<ProjectEntity> projects;
 
 }

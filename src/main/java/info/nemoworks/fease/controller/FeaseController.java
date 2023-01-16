@@ -2,8 +2,7 @@ package info.nemoworks.fease.controller;
 
 import com.alibaba.fastjson.JSONObject;
 import info.nemoworks.fease.controller.dto.Document;
-import info.nemoworks.fease.controller.dto.Mapper;
-import info.nemoworks.fease.model.Register;
+import info.nemoworks.fease.controller.dto.DtoMapper;
 import info.nemoworks.fease.service.FeaseService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -34,7 +33,7 @@ public class FeaseController {
 //        }
         switch (collectionName) {
             case "contract":
-                return Mapper.INSTANCE.contractToDocument(feaseService.saveContract(Mapper.INSTANCE.jsonObjectToContract(content)));
+                return DtoMapper.INSTANCE.contractToDocument(feaseService.saveContract(DtoMapper.INSTANCE.jsonObjectToContract(content)));
         }
         return null;
 

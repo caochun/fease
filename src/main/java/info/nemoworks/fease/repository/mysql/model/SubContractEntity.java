@@ -7,12 +7,10 @@ import javax.persistence.*;
 public class SubContractEntity {
     @Id
     private Long id;
-//
-//    @ManyToOne
-//    @JoinColumn(name = "contract_id")
-//    private ContractEntity contract;
 
-
+    @ManyToOne
+    @JoinColumn(name = "contract_id")
+    private ContractEntity contract;
 
     public void setId(Long id) {
         this.id = id;
