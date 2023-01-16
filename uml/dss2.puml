@@ -10,16 +10,34 @@ class FeaseService
 
 class ContractRepository
 
-note "两者相互转换" as N2
+class ContractJSONObject
+
+class DTOMapper
+
+class FeaseController
+
+note "领域层<->存储层" as N2
+note "领域层<->展现层" as N3
 
 N2 .. Contract
 ContractEntity .. N2
 EntityMapper ..> Contract : 映射转换
 EntityMapper ..> ContractEntity : 映射转换
 
+N3 .. Contract
+ContractJSONObject .. N3
+
+DTOMapper ..> ContractJSONObject : 映射转换
+
+DTOMapper ..> Contract : 映射转换
+
 FeaseService ..> Contract : 获得存储访问 >
 FeaseService o-- EntityMapper : 使用 >
 ContractRepository ..> ContractEntity : 存储访问
 FeaseService o-- ContractRepository : 委托 >
+
+FeaseController o-- FeaseService : 委托 >
+FeaseController o-- DTOMapper : 使用 >
+
 
 @end
