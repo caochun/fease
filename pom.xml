@@ -127,6 +127,12 @@
             <version>2.21.1</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-inline</artifactId>
+            <scope>test</scope>
+        </dependency>
+
     </dependencies>
 
     <profiles>

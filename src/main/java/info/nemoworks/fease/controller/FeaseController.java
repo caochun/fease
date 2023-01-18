@@ -13,14 +13,19 @@ import org.springframework.web.bind.annotation.*;
 @CrossOrigin
 @RequestMapping("/api/archive")
 public class FeaseController {
-    @Autowired
     FeaseService feaseService;
 
-//    @Autowired
-//    SchemaService schemaService;
+    @Autowired
+    public void setFeaseService(FeaseService feaseService) {
+        this.feaseService = feaseService;
+    }
 
     private static final Logger logger = LoggerFactory.getLogger(FeaseController.class);
 
+    @GetMapping("/ping")
+    public String ping(){
+        return "pong";
+    }
     @PostMapping("/document")
     public Document createLastDocument(@RequestBody JSONObject content,
                                        @RequestParam(required = true) String schemaUniqueCode,
