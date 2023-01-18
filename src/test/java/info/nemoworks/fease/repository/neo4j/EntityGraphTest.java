@@ -1,6 +1,11 @@
 package info.nemoworks.fease.repository.neo4j;
 
+import com.alibaba.fastjson.JSONObject;
+import info.nemoworks.fease.controller.dto.DtoMapper;
+import info.nemoworks.fease.model.Contract;
+import info.nemoworks.fease.model.Customer;
 import info.nemoworks.fease.repository.neo4j.model.ContractNode;
+import info.nemoworks.fease.service.FeaseService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.data.neo4j.DataNeo4jTest;
@@ -13,9 +18,13 @@ import org.testcontainers.containers.Neo4jContainer;
 import org.testcontainers.junit.jupiter.Container;
 import org.testcontainers.junit.jupiter.Testcontainers;
 
+import java.io.IOException;
 import java.time.Duration;
+import java.time.LocalDate;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import static org.springframework.transaction.annotation.Propagation.NEVER;
@@ -57,6 +66,25 @@ public class EntityGraphTest {
         for (String bean : beans) {
             System.out.println(bean);
         }
+    }
+
+    @Autowired
+    private FeaseService feaseService;
+
+    @Test
+    void mapFieldShouldBeSaved() throws IOException {
+        Customer customer = new Customer();
+        customer.setName("张三");
+        customer.setId("202");
+
+        JSONObject jsonObject = JSONObject.parseObject(new String(getClass().getClassLoader().getResourceAsStream("contract_main.json").readAllBytes()));
+        Contract contract = DtoMapper.INSTANCE.jsonObjectToContract(jsonObject);
+
+        contract.setDate(LocalDate.now());
+        contract.setCustomer(customer);
+
+        feaseService.saveContract(contract);
+
     }
 
 }
